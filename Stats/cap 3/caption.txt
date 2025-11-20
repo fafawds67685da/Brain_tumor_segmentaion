@@ -1,6 +1,0 @@
-3.  
-
-Final dataset sizes:
-Train: 18265
-Val  : 3653
-Test : 2436
