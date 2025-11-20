@@ -15,31 +15,70 @@ st.set_page_config(page_title="Brain Tumor Segmentation", layout="wide", initial
 
 # Folder metadata with headings
 FOLDER_INFO = {
-    "cap 2/cap 1": {
-        "heading": "📊 Dataset Overview",
-        "description": "Tumor distribution and 3D MRI volumes analysis"
+    "cap 1": {
+        "heading": "📊 1. Dataset Overview",
+        "description": "Tumor distribution and 3D MRI volumes analysis",
+        "has_captions": True
     },
     "cap 2": {
-        "heading": "📈 Tumor & Intensity Statistics", 
-        "description": "Tumor percentage distribution and MRI intensity statistics"
+        "heading": "📈 2. Tumor & Intensity Statistics", 
+        "description": "Tumor percentage distribution and MRI intensity statistics",
+        "has_captions": True
     },
     "cap 3": {
-        "heading": "📦 Dataset Split Summary",
-        "description": "Train, validation, and test set sizes"
+        "heading": "📦 3. Dataset Split Summary",
+        "description": "Train, validation, and test set sizes",
+        "has_captions": False
     },
     "cap 4": {
-        "heading": "🔬 Slice-Level Analysis",
-        "description": "Tumor pixels, intensity distribution, and feature correlations"
+        "heading": "🔬 4. Slice-Level Analysis",
+        "description": "Tumor pixels, intensity distribution, and feature correlations",
+        "has_captions": True
     },
     "cap 5": {
-        "heading": "🎨 Data Augmentation",
-        "description": "Augmentation examples and intensity shift analysis"
+        "heading": "🎨 5. Data Augmentation",
+        "description": "Augmentation examples and intensity shift analysis",
+        "has_captions": True
     },
     "cap 6": {
-        "heading": "📉 Training Metrics",
-        "description": "Loss, accuracy, and dice coefficient curves"
+        "heading": "📉 6. Training Metrics",
+        "description": "Loss, accuracy, and dice coefficient curves",
+        "has_captions": False
     }
 }
+
+def parse_captions(caption_text):
+    """Parse caption.txt file to extract individual captions with their numbers/titles"""
+    captions = {}
+    lines = caption_text.strip().split('\n')
+    current_num = None
+    current_text = []
+    
+    for line in lines:
+        # Check if line starts with a number (e.g., "1. ", "2. ", etc.)
+        if line.strip() and line[0].isdigit() and '. ' in line:
+            # Save previous caption if exists
+            if current_num is not None:
+                captions[current_num] = '\n'.join(current_text).strip()
+            # Start new caption
+            parts = line.split('. ', 1)
+            current_num = int(parts[0].strip())
+            current_text = [parts[1] if len(parts) > 1 else '']
+        elif line.startswith('⭐'):
+            # Alternative format with stars
+            if current_num is not None:
+                captions[current_num] = '\n'.join(current_text).strip()
+            # Extract caption number from following content or use sequential
+            current_num = len(captions) + 1
+            current_text = [line]
+        elif current_num is not None:
+            current_text.append(line)
+    
+    # Save last caption
+    if current_num is not None:
+        captions[current_num] = '\n'.join(current_text).strip()
+    
+    return captions
 
 # Backend URL
 if 'backend_url' not in st.session_state:
@@ -89,9 +128,14 @@ if page == "📊 Statistics":
         st.markdown(f"*{folder_meta['description']}*")
         st.markdown("---")
         
-        # Read caption if exists
+        # Read and parse captions if exists
+        captions = {}
         caption_file = folder_path / "caption.txt"
-        if caption_file.exists():
+        if caption_file.exists() and folder_meta.get("has_captions", False):
+            caption_text = caption_file.read_text(encoding='utf-8', errors='ignore')
+            captions = parse_captions(caption_text)
+        elif caption_file.exists():
+            # For folders without numbered captions (cap 3, cap 6), show as single block
             caption_text = caption_file.read_text(encoding='utf-8', errors='ignore')
             with st.expander("📝 About this section", expanded=True):
                 st.markdown(caption_text)
@@ -100,10 +144,10 @@ if page == "📊 Statistics":
         html_files = sorted(folder_path.glob("*.html"))
         json_files = sorted(folder_path.glob("*.json"))
         
-        # Display HTML visualizations
+        # Display HTML visualizations with captions
         if html_files:
             st.subheader("📊 Visualizations")
-            for html_file in html_files:
+            for idx, html_file in enumerate(html_files, start=1):
                 st.markdown(f"### {html_file.stem.replace('_', ' ').title()}")
                 
                 # Try to load via backend first, fallback to local
@@ -114,37 +158,134 @@ if page == "📊 Statistics":
                     html_content = html_file.read_text(encoding='utf-8', errors='ignore')
                     components.html(html_content, height=600, scrolling=True)
                 
+                # Display caption below the graph if available
+                if idx in captions:
+                    st.info(f"📝 {captions[idx]}")
+                
                 st.markdown("---")
         
         # Display JSON data
         if json_files:
             st.subheader("📋 Numerical Statistics")
-            for json_file in json_files:
-                with st.expander(f"📄 {json_file.stem.replace('_', ' ').title()}", expanded=False):
-                    try:
-                        data = json.loads(json_file.read_text(encoding='utf-8'))
+            for idx, json_file in enumerate(json_files, start=len(html_files) + 1):
+                st.markdown(f"### {json_file.stem.replace('_', ' ').title()}")
+                
+                try:
+                    data = json.loads(json_file.read_text(encoding='utf-8'))
+                    
+                    # Special handling for training history
+                    if "epochs" in data and "train_loss" in data:
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("Total Epochs", len(data["epochs"]))
+                        with col2:
+                            st.metric("Final Train Loss", f"{data['train_loss'][-1]:.6f}")
+                        with col3:
+                            st.metric("Final Val Loss", f"{data['val_loss'][-1]:.6f}")
                         
-                        # Special handling for training history
-                        if "epochs" in data and "train_loss" in data:
-                            col1, col2, col3 = st.columns(3)
+                        col1, col2 = st.columns(2)
+                        with col1:
+                            st.metric("Final Train Dice", f"{data['train_dice'][-1]:.4f}")
+                        with col2:
+                            st.metric("Final Val Dice", f"{data['val_dice'][-1]:.4f}")
+                    
+                    # Special handling for augmentation stats
+                    elif "original_mean_intensity" in data and "augmented_means" in data:
+                        col1, col2 = st.columns(2)
+                        with col1:
+                            st.metric("Original Mean Intensity", f"{data['original_mean_intensity']:.6f}")
+                        with col2:
+                            st.metric("Augmentation Shift Std", f"{data['augmentation_shift_std']:.6f}")
+                        
+                        st.markdown("**Augmented Mean Intensities:**")
+                        aug_means = data['augmented_means']
+                        cols = st.columns(min(len(aug_means), 3))
+                        for i, mean_val in enumerate(aug_means):
+                            with cols[i % 3]:
+                                st.metric(f"Sample {i+1}", f"{mean_val:.6f}")
+                    
+                    # Special handling for dataset intensity and tumor stats (cap 2)
+                    elif "average_tumor_percentage" in data and "intensity_stats" in data:
+                        st.metric("Average Tumor Percentage", f"{data['average_tumor_percentage']:.4f}%")
+                        
+                        st.markdown("**📊 Intensity Statistics by Patient**")
+                        import pandas as pd
+                        # Paging logic for stats 2
+                        key2 = f"stats2_page_{json_file.name}"
+                        if key2 not in st.session_state:
+                            st.session_state[key2] = 0
+                        page_size2 = 10
+                        start2 = st.session_state[key2] * page_size2
+                        end2 = start2 + page_size2
+                        # Add correct index column for paging
+                        page_rows = data['intensity_stats'][start2:end2]
+                        if page_rows:
+                            df2 = pd.DataFrame(page_rows)
+                            df2.insert(0, "Index", range(start2 + 1, start2 + 1 + len(df2)))
+                            st.dataframe(df2, use_container_width=True)
+                            st.info(f"💡 Showing rows {start2+1} to {min(end2, len(data['intensity_stats']))} of {len(data['intensity_stats'])}")
+                        col_next2, _ = st.columns(2)
+                        if col_next2.button("Next", key=f"next_stats2_{json_file.name}"):
+                            if end2 < len(data['intensity_stats']):
+                                st.session_state[key2] += 1
+                        if st.session_state[key2] > 0:
+                            if col_next2.button("Previous", key=f"prev_stats2_{json_file.name}"):
+                                st.session_state[key2] -= 1
+                    
+                    # Special handling for slice-level statistics (cap 4)
+                    elif "summary_statistics" in data and "sample_rows" in data:
+                        st.markdown("**📊 Summary Statistics**")
+                        
+                        # Display summary stats for each metric
+                        stats = data['summary_statistics']
+                        for metric_name, metric_data in stats.items():
+                            st.markdown(f"**{metric_name}:**")
+                            col1, col2, col3, col4 = st.columns(4)
                             with col1:
-                                st.metric("Total Epochs", len(data["epochs"]))
+                                st.metric("Mean", f"{metric_data['mean']:.4f}")
                             with col2:
-                                st.metric("Final Train Loss", f"{data['train_loss'][-1]:.6f}")
+                                st.metric("Std Dev", f"{metric_data['std']:.4f}")
                             with col3:
-                                st.metric("Final Val Loss", f"{data['val_loss'][-1]:.6f}")
-                            
-                            col1, col2 = st.columns(2)
-                            with col1:
-                                st.metric("Final Train Dice", f"{data['train_dice'][-1]:.4f}")
-                            with col2:
-                                st.metric("Final Val Dice", f"{data['val_dice'][-1]:.4f}")
+                                st.metric("Min", f"{metric_data['min']:.4f}")
+                            with col4:
+                                st.metric("Max", f"{metric_data['max']:.4f}")
                         
-                        # Show raw JSON in expandable section
-                        with st.expander("Show raw data"):
-                            st.json(data)
-                    except Exception as e:
-                        st.error(f"Error loading JSON: {e}")
+                        st.markdown("**📋 Sample Data**")
+                        import pandas as pd
+                        # Paging logic for stats 4
+                        key4 = f"stats4_page_{json_file.name}"
+                        if key4 not in st.session_state:
+                            st.session_state[key4] = 0
+                        page_size4 = 5
+                        start4 = st.session_state[key4] * page_size4
+                        end4 = start4 + page_size4
+                        df4 = pd.DataFrame(data['sample_rows'][start4:end4])
+                        st.dataframe(df4, use_container_width=True)
+                        st.info(f"💡 Showing rows {start4+1} to {min(end4, len(data['sample_rows']))} of {len(data['sample_rows'])}")
+                        col_next4, _ = st.columns(2)
+                        if col_next4.button("Next", key=f"next_stats4_{json_file.name}"):
+                            if end4 < len(data['sample_rows']):
+                                st.session_state[key4] += 1
+                        if st.session_state[key4] > 0:
+                            if col_next4.button("Previous", key=f"prev_stats4_{json_file.name}"):
+                                st.session_state[key4] -= 1
+                    
+                    else:
+                        # Generic JSON display
+                        st.json(data)
+                    
+                    # Display caption below JSON if available
+                    if idx in captions:
+                        st.info(f"📝 {captions[idx]}")
+                    
+                    # Show raw JSON in expandable section
+                    with st.expander("Show raw JSON data"):
+                        st.json(data)
+                        
+                except Exception as e:
+                    st.error(f"Error loading JSON: {e}")
+                
+                st.markdown("---")
 
 
 # ==================== PREDICTION PAGE ====================

@@ -2,60 +2,54 @@
 
 This workspace contains a FastAPI backend (`backend.py`) that loads a U-Net brain tumor segmentation model (`unet_brain_tumor_final.keras`) and exposes prediction endpoints, plus a Streamlit frontend (`streamlit_app.py`) to preview the `Stats/` HTML reports and run model inference on images in `Test_images/`.
 
-Quick start
+---
+
+## 🚀 Key Features (Updated)
+
+- **Streamlit frontend (`streamlit_app.py`)**
+  - Multi-page dashboard with sidebar navigation
+  - Interactive visualization of all statistics in `Stats/` (HTML, JSON)
+  - Paginated tables for large JSON stats (cap 2 and cap 4), with correct row indices
+  - Dynamic captions parsed from `caption.txt` files and shown under graphs (except cap 3 and cap 6)
+  - JSON stats displayed in a readable format
+  - Model prediction page: upload/select images, view segmentation results
+
+- **FastAPI backend (`backend.py`)**
+  - RESTful API for tumor segmentation
+  - Single and batch prediction endpoints
+  - Serves static stats files from `Stats/`
+
+---
+
+## 🛠️ Quick Start
+
 1. Create a Python virtual environment and activate it.
-
-   PowerShell (Windows):
-
    ```powershell
    python -m venv .venv; .\.venv\Scripts\Activate.ps1
    pip install -r requirements.txt
    ```
-
-2. Start the backend (option A: using uvicorn, option B: run the script directly):
-
-   - Correct uvicorn usage:
-
-     ```powershell
-     uvicorn backend:app --reload
-     ```
-
-     Note: the command you tried earlier `uvicorn run backend:app --reload` is incorrect (extra `run`).
-
-   - Or run directly (same effect):
-
-     ```powershell
-     python backend.py
-     ```
-
-3. Open the Streamlit frontend (in a new shell):
-
+2. Start the backend:
+   ```powershell
+   uvicorn backend:app --reload
+   # or
+   python backend.py
+   ```
+3. Start the Streamlit frontend:
    ```powershell
    streamlit run streamlit_app.py
    ```
 
-What the code does
-- `backend.py`: FastAPI app with endpoints:
-  - `GET /` root
-  - `GET /health` health check
-  - `GET /model-info` model details
-  - `POST /predict` single-image prediction (multipart file)
-  - `POST /batch-predict` multiple images
-  - Serves the `Stats/` folder at `/stats/*` (if `Stats/` exists)
+---
 
-- `streamlit_app.py`: a small UI that:
-  - lists and previews `Stats/*.html` (via the backend at `/stats/...` if running),
-  - shows test images from `Test_images/`,
-  - uploads or selects an image and calls `/predict`, then shows the overlay and mask.
+## 📝 Notes
+- The dashboard now supports paginated tables for large stats (cap 2 and cap 4), with correct row indices.
+- Captions are dynamically parsed and shown under graphs, except for cap 3 and cap 6.
+- Sidebar navigation and multi-page layout are implemented.
+- JSON stats are displayed in a readable format.
+- The model expects grayscale MRI images, resized to 128x128 for prediction.
 
-Tips and notes
-- If `unet_brain_tumor_final.keras` is missing, the backend will start but prediction endpoints will return a 503 until the model file is placed in the project root.
-- `tensorflow-cpu` is recommended in `requirements.txt` to avoid GPU driver problems. If you have GPU drivers and want GPU support, replace it with `tensorflow`.
+For more details, see the full documentation below.
 
-If you want, I can:
-- wire a simple docker-compose file to run the backend + streamlit together, or
-- add server-side listing endpoint for the stats (already served as static files), or
-- implement saving predictions to `Stats/` so they appear in reports.
 # 🧠 Brain Tumor Segmentation Dashboard
 
 A comprehensive web application for brain tumor segmentation using U-Net deep learning model. This project includes a **Streamlit frontend** for interactive visualization and a **FastAPI backend** for real-time model predictions.
