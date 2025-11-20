@@ -1,0 +1,18 @@
+4. 
+
+📝 Professional Captions for Each Graph
+⭐ Tumor Pixel Distribution
+
+This histogram shows the distribution of tumor pixel counts across all extracted 2D MRI slices. Most slices contain small tumor regions, while only a small fraction contain large tumor areas. This highlights the uneven nature of tumor spatial distribution in axial slices.
+
+⭐ Mean Intensity Distribution
+
+This graph illustrates the normalized mean intensity levels across all preprocessed slices. The distribution is centered around the expected normalized range (0–1), confirming successful intensity normalization.
+
+⭐ Intensity Standard Deviation Distribution
+
+This plot reveals texture variation across MRI slices. Higher standard deviation corresponds to more structural complexity or noise. These variations influence segmentation difficulty.
+
+⭐ Correlation Heatmap
+
+This heatmap shows relationships between slice-level features. Tumor pixel count positively correlates with intensity variance, suggesting that tumor regions introduce additional texture complexity.

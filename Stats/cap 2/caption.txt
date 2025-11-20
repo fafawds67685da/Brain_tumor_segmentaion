@@ -1,0 +1,11 @@
+2. Tumor percentage dist. and MRI intensity statistics
+
+📝 Professional Captions for Your Web UI
+⭐ Caption 1 — Tumor Percentage Distribution
+
+This chart shows the percentage of each patient's brain volume that is affected by a tumor. Tumor size varies significantly across the BraTS dataset—from very small lesions to extensive tumor regions. Understanding this distribution is essential because segmentation models must generalize across highly diverse tumor sizes.
+
+⭐ Caption 2 — MRI Intensity Statistics
+
+This visualization highlights the natural variability in MRI signal intensity across patients. Raw MRI scans exhibit wide ranges in brightness and contrast due to scanner differences and acquisition protocols. These statistics justify the use of normalization during preprocessing for consistent model performance.
+

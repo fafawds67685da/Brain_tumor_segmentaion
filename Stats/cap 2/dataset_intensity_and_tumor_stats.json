@@ -1,0 +1,4423 @@
+{
+    "average_tumor_percentage": 1.1138230238039581,
+    "intensity_stats": [
+        {
+            "Case": "BraTS20_Training_001",
+            "Mean_Intensity": 26.021915994623654,
+            "Std_Intensity": 66.76537214744386,
+            "Min": 0.0,
+            "Max": 625.0
+        },
+        {
+            "Case": "BraTS20_Training_002",
+            "Mean_Intensity": 49.390887992831544,
+            "Std_Intensity": 114.95708934128761,
+            "Min": 0.0,
+            "Max": 1091.0
+        },
+        {
+            "Case": "BraTS20_Training_003",
+            "Mean_Intensity": 43.63750504032258,
+            "Std_Intensity": 111.37572538503692,
+            "Min": 0.0,
+            "Max": 773.0
+        },
+        {
+            "Case": "BraTS20_Training_004",
+            "Mean_Intensity": 35.86579805107527,
+            "Std_Intensity": 85.2900331697326,
+            "Min": 0.0,
+            "Max": 757.0
+        },
+        {
+            "Case": "BraTS20_Training_005",
+            "Mean_Intensity": 25.14679435483871,
+            "Std_Intensity": 61.17275611723218,
+            "Min": 0.0,
+            "Max": 762.0
+        },
+        {
+            "Case": "BraTS20_Training_006",
+            "Mean_Intensity": 30.32604144265233,
+            "Std_Intensity": 75.14026934129234,
+            "Min": 0.0,
+            "Max": 730.0
+        },
+        {
+            "Case": "BraTS20_Training_007",
+            "Mean_Intensity": 25.476305667562723,
+            "Std_Intensity": 64.13239168695449,
+            "Min": 0.0,
+            "Max": 727.0
+        },
+        {
+            "Case": "BraTS20_Training_008",
+            "Mean_Intensity": 74.1177979390681,
+            "Std_Intensity": 171.63624786016135,
+            "Min": 0.0,
+            "Max": 1564.0
+        },
+        {
+            "Case": "BraTS20_Training_009",
+            "Mean_Intensity": 29.483009632616486,
+            "Std_Intensity": 78.34535115482561,
+            "Min": 0.0,
+            "Max": 1109.0
+        },
+        {
+            "Case": "BraTS20_Training_010",
+            "Mean_Intensity": 30.717462141577062,
+            "Std_Intensity": 77.91290370335028,
+            "Min": 0.0,
+            "Max": 1205.0
+        },
+        {
+            "Case": "BraTS20_Training_011",
+            "Mean_Intensity": 30.064739695340503,
+            "Std_Intensity": 69.6081787775225,
+            "Min": 0.0,
+            "Max": 984.0
+        },
+        {
+            "Case": "BraTS20_Training_012",
+            "Mean_Intensity": 34.90595430107527,
+            "Std_Intensity": 81.24006035526206,
+            "Min": 0.0,
+            "Max": 1091.0
+        },
+        {
+            "Case": "BraTS20_Training_013",
+            "Mean_Intensity": 27.464174731182794,
+            "Std_Intensity": 65.76044170171433,
+            "Min": 0.0,
+            "Max": 776.0
+        },
+        {
+            "Case": "BraTS20_Training_014",
+            "Mean_Intensity": 41.526282818100356,
+            "Std_Intensity": 90.73888260117586,
+            "Min": 0.0,
+            "Max": 832.0
+        },
+        {
+            "Case": "BraTS20_Training_015",
+            "Mean_Intensity": 40.28937735215054,
+            "Std_Intensity": 94.3449320214706,
+            "Min": 0.0,
+            "Max": 957.0
+        },
+        {
+            "Case": "BraTS20_Training_016",
+            "Mean_Intensity": 73.88883445340502,
+            "Std_Intensity": 176.2164785154206,
+            "Min": 0.0,
+            "Max": 1506.0
+        },
+        {
+            "Case": "BraTS20_Training_017",
+            "Mean_Intensity": 42.085985887096776,
+            "Std_Intensity": 99.27472371574622,
+            "Min": 0.0,
+            "Max": 1127.0
+        },
+        {
+            "Case": "BraTS20_Training_018",
+            "Mean_Intensity": 25.38802105734767,
+            "Std_Intensity": 65.23256525892066,
+            "Min": 0.0,
+            "Max": 707.0
+        },
+        {
+            "Case": "BraTS20_Training_019",
+            "Mean_Intensity": 26.983179995519713,
+            "Std_Intensity": 69.17982960411389,
+            "Min": 0.0,
+            "Max": 965.0
+        },
+        {
+            "Case": "BraTS20_Training_020",
+            "Mean_Intensity": 33.78272591845878,
+            "Std_Intensity": 79.42475409839702,
+            "Min": 0.0,
+            "Max": 894.0
+        },
+        {
+            "Case": "BraTS20_Training_021",
+            "Mean_Intensity": 25.298949596774193,
+            "Std_Intensity": 65.11254150860864,
+            "Min": 0.0,
+            "Max": 885.0
+        },
+        {
+            "Case": "BraTS20_Training_022",
+            "Mean_Intensity": 31.014004032258065,
+            "Std_Intensity": 73.65393798091661,
+            "Min": 0.0,
+            "Max": 971.0
+        },
+        {
+            "Case": "BraTS20_Training_023",
+            "Mean_Intensity": 35.324384296594985,
+            "Std_Intensity": 93.45864906937253,
+            "Min": 0.0,
+            "Max": 1209.0
+        },
+        {
+            "Case": "BraTS20_Training_024",
+            "Mean_Intensity": 43.18469545250896,
+            "Std_Intensity": 101.62082588373853,
+            "Min": 0.0,
+            "Max": 1502.0
+        },
+        {
+            "Case": "BraTS20_Training_025",
+            "Mean_Intensity": 20.706830757168458,
+            "Std_Intensity": 57.27323580314125,
+            "Min": 0.0,
+            "Max": 711.0
+        },
+        {
+            "Case": "BraTS20_Training_026",
+            "Mean_Intensity": 43.88697155017921,
+            "Std_Intensity": 103.50790098545892,
+            "Min": 0.0,
+            "Max": 1540.0
+        },
+        {
+            "Case": "BraTS20_Training_027",
+            "Mean_Intensity": 43.117714941756276,
+            "Std_Intensity": 105.76834032720602,
+            "Min": 0.0,
+            "Max": 973.0
+        },
+        {
+            "Case": "BraTS20_Training_028",
+            "Mean_Intensity": 24.953022177419356,
+            "Std_Intensity": 58.28052644040027,
+            "Min": 0.0,
+            "Max": 631.0
+        },
+        {
+            "Case": "BraTS20_Training_029",
+            "Mean_Intensity": 19.222842741935484,
+            "Std_Intensity": 52.00694806361903,
+            "Min": 0.0,
+            "Max": 552.0
+        },
+        {
+            "Case": "BraTS20_Training_030",
+            "Mean_Intensity": 31.64947737455197,
+            "Std_Intensity": 72.469026014976,
+            "Min": 0.0,
+            "Max": 676.0
+        },
+        {
+            "Case": "BraTS20_Training_031",
+            "Mean_Intensity": 29.28755365143369,
+            "Std_Intensity": 67.76635737787448,
+            "Min": 0.0,
+            "Max": 642.0
+        },
+        {
+            "Case": "BraTS20_Training_032",
+            "Mean_Intensity": 25.175759968637994,
+            "Std_Intensity": 63.466762336623844,
+            "Min": 0.0,
+            "Max": 809.0
+        },
+        {
+            "Case": "BraTS20_Training_033",
+            "Mean_Intensity": 22.61540042562724,
+            "Std_Intensity": 62.636720618846105,
+            "Min": 0.0,
+            "Max": 765.0
+        },
+        {
+            "Case": "BraTS20_Training_034",
+            "Mean_Intensity": 25.13463597670251,
+            "Std_Intensity": 65.53320763751242,
+            "Min": 0.0,
+            "Max": 769.0
+        },
+        {
+            "Case": "BraTS20_Training_035",
+            "Mean_Intensity": 38.044783938172046,
+            "Std_Intensity": 90.41159460217055,
+            "Min": 0.0,
+            "Max": 1139.0
+        },
+        {
+            "Case": "BraTS20_Training_036",
+            "Mean_Intensity": 21.6666583781362,
+            "Std_Intensity": 55.22374425065769,
+            "Min": 0.0,
+            "Max": 760.0
+        },
+        {
+            "Case": "BraTS20_Training_037",
+            "Mean_Intensity": 22.285662186379927,
+            "Std_Intensity": 56.93737733782516,
+            "Min": 0.0,
+            "Max": 722.0
+        },
+        {
+            "Case": "BraTS20_Training_038",
+            "Mean_Intensity": 24.891165546594983,
+            "Std_Intensity": 66.84825336436563,
+            "Min": 0.0,
+            "Max": 947.0
+        },
+        {
+            "Case": "BraTS20_Training_039",
+            "Mean_Intensity": 40.29938429659498,
+            "Std_Intensity": 106.00382970412804,
+            "Min": 0.0,
+            "Max": 1111.0
+        },
+        {
+            "Case": "BraTS20_Training_040",
+            "Mean_Intensity": 48.4865458109319,
+            "Std_Intensity": 112.49844655035496,
+            "Min": 0.0,
+            "Max": 1200.0
+        },
+        {
+            "Case": "BraTS20_Training_041",
+            "Mean_Intensity": 28.88316565860215,
+            "Std_Intensity": 70.8444599099907,
+            "Min": 0.0,
+            "Max": 1082.0
+        },
+        {
+            "Case": "BraTS20_Training_042",
+            "Mean_Intensity": 35.215600470430104,
+            "Std_Intensity": 93.2033613741088,
+            "Min": 0.0,
+            "Max": 1148.0
+        },
+        {
+            "Case": "BraTS20_Training_043",
+            "Mean_Intensity": 40.50228281810036,
+            "Std_Intensity": 93.20673446619266,
+            "Min": 0.0,
+            "Max": 933.0
+        },
+        {
+            "Case": "BraTS20_Training_044",
+            "Mean_Intensity": 42.72055141129032,
+            "Std_Intensity": 99.63440718098443,
+            "Min": 0.0,
+            "Max": 1240.0
+        },
+        {
+            "Case": "BraTS20_Training_045",
+            "Mean_Intensity": 35.65785159050179,
+            "Std_Intensity": 94.08862682132659,
+            "Min": 0.0,
+            "Max": 1086.0
+        },
+        {
+            "Case": "BraTS20_Training_046",
+            "Mean_Intensity": 45.1853252688172,
+            "Std_Intensity": 104.85300190392012,
+            "Min": 0.0,
+            "Max": 1317.0
+        },
+        {
+            "Case": "BraTS20_Training_047",
+            "Mean_Intensity": 25.53773398297491,
+            "Std_Intensity": 59.84085143844208,
+            "Min": 0.0,
+            "Max": 776.0
+        },
+        {
+            "Case": "BraTS20_Training_048",
+            "Mean_Intensity": 25.810859543010753,
+            "Std_Intensity": 61.910741214826444,
+            "Min": 0.0,
+            "Max": 1135.0
+        },
+        {
+            "Case": "BraTS20_Training_049",
+            "Mean_Intensity": 28.102413866487456,
+            "Std_Intensity": 66.74865809094683,
+            "Min": 0.0,
+            "Max": 699.0
+        },
+        {
+            "Case": "BraTS20_Training_050",
+            "Mean_Intensity": 26.637294802867384,
+            "Std_Intensity": 63.978639670227764,
+            "Min": 0.0,
+            "Max": 922.0
+        },
+        {
+            "Case": "BraTS20_Training_051",
+            "Mean_Intensity": 26.40238586469534,
+            "Std_Intensity": 70.33422200696211,
+            "Min": 0.0,
+            "Max": 827.0
+        },
+        {
+            "Case": "BraTS20_Training_052",
+            "Mean_Intensity": 27.41501444892473,
+            "Std_Intensity": 69.30837296513586,
+            "Min": 0.0,
+            "Max": 869.0
+        },
+        {
+            "Case": "BraTS20_Training_053",
+            "Mean_Intensity": 36.721303987455194,
+            "Std_Intensity": 81.202317801564,
+            "Min": 0.0,
+            "Max": 625.0
+        },
+        {
+            "Case": "BraTS20_Training_054",
+            "Mean_Intensity": 23.54274507168459,
+            "Std_Intensity": 61.38564694357648,
+            "Min": 0.0,
+            "Max": 966.0
+        },
+        {
+            "Case": "BraTS20_Training_055",
+            "Mean_Intensity": 49.47565669802867,
+            "Std_Intensity": 111.10581381501461,
+            "Min": 0.0,
+            "Max": 1057.0
+        },
+        {
+            "Case": "BraTS20_Training_056",
+            "Mean_Intensity": 40.77698241487455,
+            "Std_Intensity": 110.16619233365337,
+            "Min": 0.0,
+            "Max": 1049.0
+        },
+        {
+            "Case": "BraTS20_Training_057",
+            "Mean_Intensity": 25.609774081541218,
+            "Std_Intensity": 71.0142653510034,
+            "Min": 0.0,
+            "Max": 697.0
+        },
+        {
+            "Case": "BraTS20_Training_058",
+            "Mean_Intensity": 26.167255488351255,
+            "Std_Intensity": 62.82900460650699,
+            "Min": 0.0,
+            "Max": 729.0
+        },
+        {
+            "Case": "BraTS20_Training_059",
+            "Mean_Intensity": 20.69755230734767,
+            "Std_Intensity": 50.813853626719805,
+            "Min": 0.0,
+            "Max": 613.0
+        },
+        {
+            "Case": "BraTS20_Training_060",
+            "Mean_Intensity": 23.236410506272403,
+            "Std_Intensity": 60.11345335043528,
+            "Min": 0.0,
+            "Max": 659.0
+        },
+        {
+            "Case": "BraTS20_Training_061",
+            "Mean_Intensity": 55.93277811379928,
+            "Std_Intensity": 136.00774300698313,
+            "Min": 0.0,
+            "Max": 1545.0
+        },
+        {
+            "Case": "BraTS20_Training_062",
+            "Mean_Intensity": 28.835002688172043,
+            "Std_Intensity": 76.03099986690687,
+            "Min": 0.0,
+            "Max": 786.0
+        },
+        {
+            "Case": "BraTS20_Training_063",
+            "Mean_Intensity": 28.10715893817204,
+            "Std_Intensity": 66.40721790665998,
+            "Min": 0.0,
+            "Max": 643.0
+        },
+        {
+            "Case": "BraTS20_Training_064",
+            "Mean_Intensity": 28.249313396057346,
+            "Std_Intensity": 73.92864445054269,
+            "Min": 0.0,
+            "Max": 782.0
+        },
+        {
+            "Case": "BraTS20_Training_065",
+            "Mean_Intensity": 63.385387432795696,
+            "Std_Intensity": 158.08861941674957,
+            "Min": 0.0,
+            "Max": 1163.0
+        },
+        {
+            "Case": "BraTS20_Training_066",
+            "Mean_Intensity": 38.67161704749104,
+            "Std_Intensity": 92.17266752061943,
+            "Min": 0.0,
+            "Max": 892.0
+        },
+        {
+            "Case": "BraTS20_Training_067",
+            "Mean_Intensity": 30.725848678315412,
+            "Std_Intensity": 74.54242385876744,
+            "Min": 0.0,
+            "Max": 761.0
+        },
+        {
+            "Case": "BraTS20_Training_068",
+            "Mean_Intensity": 43.249442092293904,
+            "Std_Intensity": 102.51332691507639,
+            "Min": 0.0,
+            "Max": 1135.0
+        },
+        {
+            "Case": "BraTS20_Training_069",
+            "Mean_Intensity": 39.44474417562724,
+            "Std_Intensity": 100.6014186303587,
+            "Min": 0.0,
+            "Max": 864.0
+        },
+        {
+            "Case": "BraTS20_Training_070",
+            "Mean_Intensity": 43.65904816308244,
+            "Std_Intensity": 96.04105867863836,
+            "Min": 0.0,
+            "Max": 1054.0
+        },
+        {
+            "Case": "BraTS20_Training_071",
+            "Mean_Intensity": 46.49202867383512,
+            "Std_Intensity": 114.42486309358112,
+            "Min": 0.0,
+            "Max": 1041.0
+        },
+        {
+            "Case": "BraTS20_Training_072",
+            "Mean_Intensity": 58.40997054211469,
+            "Std_Intensity": 143.37443658344338,
+            "Min": 0.0,
+            "Max": 1159.0
+        },
+        {
+            "Case": "BraTS20_Training_073",
+            "Mean_Intensity": 25.11446135752688,
+            "Std_Intensity": 65.29215944060591,
+            "Min": 0.0,
+            "Max": 1127.0
+        },
+        {
+            "Case": "BraTS20_Training_074",
+            "Mean_Intensity": 32.45048633512545,
+            "Std_Intensity": 81.24518617121555,
+            "Min": 0.0,
+            "Max": 1318.0
+        },
+        {
+            "Case": "BraTS20_Training_075",
+            "Mean_Intensity": 38.58865669802867,
+            "Std_Intensity": 96.37839848443957,
+            "Min": 0.0,
+            "Max": 1116.0
+        },
+        {
+            "Case": "BraTS20_Training_076",
+            "Mean_Intensity": 22.130373207885306,
+            "Std_Intensity": 62.350199596307625,
+            "Min": 0.0,
+            "Max": 769.0
+        },
+        {
+            "Case": "BraTS20_Training_077",
+            "Mean_Intensity": 25.83092730734767,
+            "Std_Intensity": 68.95564292983074,
+            "Min": 0.0,
+            "Max": 1004.0
+        },
+        {
+            "Case": "BraTS20_Training_078",
+            "Mean_Intensity": 33.434803427419354,
+            "Std_Intensity": 82.03547154828176,
+            "Min": 0.0,
+            "Max": 1012.0
+        },
+        {
+            "Case": "BraTS20_Training_079",
+            "Mean_Intensity": 19.906062051971325,
+            "Std_Intensity": 48.94763530372835,
+            "Min": 0.0,
+            "Max": 517.0
+        },
+        {
+            "Case": "BraTS20_Training_080",
+            "Mean_Intensity": 16.23218380376344,
+            "Std_Intensity": 40.8966236039123,
+            "Min": 0.0,
+            "Max": 498.0
+        },
+        {
+            "Case": "BraTS20_Training_081",
+            "Mean_Intensity": 33.39732235663082,
+            "Std_Intensity": 78.56816560965173,
+            "Min": 0.0,
+            "Max": 1086.0
+        },
+        {
+            "Case": "BraTS20_Training_082",
+            "Mean_Intensity": 27.656433243727598,
+            "Std_Intensity": 66.68940167085967,
+            "Min": 0.0,
+            "Max": 798.0
+        },
+        {
+            "Case": "BraTS20_Training_083",
+            "Mean_Intensity": 31.31153797043011,
+            "Std_Intensity": 75.73335817545143,
+            "Min": 0.0,
+            "Max": 811.0
+        },
+        {
+            "Case": "BraTS20_Training_084",
+            "Mean_Intensity": 35.92820710125448,
+            "Std_Intensity": 86.02019749862038,
+            "Min": 0.0,
+            "Max": 1163.0
+        },
+        {
+            "Case": "BraTS20_Training_085",
+            "Mean_Intensity": 29.21494265232975,
+            "Std_Intensity": 68.64529101416646,
+            "Min": 0.0,
+            "Max": 803.0
+        },
+        {
+            "Case": "BraTS20_Training_086",
+            "Mean_Intensity": 43.7217351030466,
+            "Std_Intensity": 99.50117617744401,
+            "Min": 0.0,
+            "Max": 1369.0
+        },
+        {
+            "Case": "BraTS20_Training_087",
+            "Mean_Intensity": 77.08410125448029,
+            "Std_Intensity": 190.76545165590844,
+            "Min": 0.0,
+            "Max": 1548.0
+        },
+        {
+            "Case": "BraTS20_Training_088",
+            "Mean_Intensity": 30.563348566308242,
+            "Std_Intensity": 74.14187690363826,
+            "Min": 0.0,
+            "Max": 1096.0
+        },
+        {
+            "Case": "BraTS20_Training_089",
+            "Mean_Intensity": 78.32335528673835,
+            "Std_Intensity": 174.53428518688187,
+            "Min": 0.0,
+            "Max": 1411.0
+        },
+        {
+            "Case": "BraTS20_Training_090",
+            "Mean_Intensity": 29.994280689964157,
+            "Std_Intensity": 75.41908058273685,
+            "Min": 0.0,
+            "Max": 1037.0
+        },
+        {
+            "Case": "BraTS20_Training_091",
+            "Mean_Intensity": 31.038174843189964,
+            "Std_Intensity": 76.93276492644115,
+            "Min": 0.0,
+            "Max": 877.0
+        },
+        {
+            "Case": "BraTS20_Training_092",
+            "Mean_Intensity": 32.012702956989244,
+            "Std_Intensity": 75.91541086190644,
+            "Min": 0.0,
+            "Max": 1069.0
+        },
+        {
+            "Case": "BraTS20_Training_093",
+            "Mean_Intensity": 24.649238911290322,
+            "Std_Intensity": 61.67733044542884,
+            "Min": 0.0,
+            "Max": 770.0
+        },
+        {
+            "Case": "BraTS20_Training_094",
+            "Mean_Intensity": 40.099580533154125,
+            "Std_Intensity": 96.06390849238375,
+            "Min": 0.0,
+            "Max": 799.0
+        },
+        {
+            "Case": "BraTS20_Training_095",
+            "Mean_Intensity": 32.01425907258064,
+            "Std_Intensity": 73.73273348370482,
+            "Min": 0.0,
+            "Max": 968.0
+        },
+        {
+            "Case": "BraTS20_Training_096",
+            "Mean_Intensity": 28.32178841845878,
+            "Std_Intensity": 75.80718967428616,
+            "Min": 0.0,
+            "Max": 1238.0
+        },
+        {
+            "Case": "BraTS20_Training_097",
+            "Mean_Intensity": 22.045133176523297,
+            "Std_Intensity": 60.726287153584906,
+            "Min": 0.0,
+            "Max": 693.0
+        },
+        {
+            "Case": "BraTS20_Training_098",
+            "Mean_Intensity": 25.335596998207887,
+            "Std_Intensity": 65.16994872427564,
+            "Min": 0.0,
+            "Max": 645.0
+        },
+        {
+            "Case": "BraTS20_Training_099",
+            "Mean_Intensity": 35.18889661738351,
+            "Std_Intensity": 77.5354717576415,
+            "Min": 0.0,
+            "Max": 630.0
+        },
+        {
+            "Case": "BraTS20_Training_100",
+            "Mean_Intensity": 23.67590681003584,
+            "Std_Intensity": 64.37881920592905,
+            "Min": 0.0,
+            "Max": 911.0
+        },
+        {
+            "Case": "BraTS20_Training_101",
+            "Mean_Intensity": 21.786452508960572,
+            "Std_Intensity": 55.64363835439725,
+            "Min": 0.0,
+            "Max": 875.0
+        },
+        {
+            "Case": "BraTS20_Training_102",
+            "Mean_Intensity": 32.69169231630824,
+            "Std_Intensity": 76.61909026235595,
+            "Min": 0.0,
+            "Max": 991.0
+        },
+        {
+            "Case": "BraTS20_Training_103",
+            "Mean_Intensity": 47.752910282258064,
+            "Std_Intensity": 108.6450025112221,
+            "Min": 0.0,
+            "Max": 1094.0
+        },
+        {
+            "Case": "BraTS20_Training_104",
+            "Mean_Intensity": 43.72726131272402,
+            "Std_Intensity": 109.21038178085739,
+            "Min": 0.0,
+            "Max": 1541.0
+        },
+        {
+            "Case": "BraTS20_Training_105",
+            "Mean_Intensity": 30.403482078853045,
+            "Std_Intensity": 76.15083854984601,
+            "Min": 0.0,
+            "Max": 1013.0
+        },
+        {
+            "Case": "BraTS20_Training_106",
+            "Mean_Intensity": 20.370228606630825,
+            "Std_Intensity": 53.86136199306054,
+            "Min": 0.0,
+            "Max": 720.0
+        },
+        {
+            "Case": "BraTS20_Training_107",
+            "Mean_Intensity": 36.94350683243728,
+            "Std_Intensity": 88.68405408705127,
+            "Min": 0.0,
+            "Max": 923.0
+        },
+        {
+            "Case": "BraTS20_Training_108",
+            "Mean_Intensity": 32.57630801971326,
+            "Std_Intensity": 78.76723802559755,
+            "Min": 0.0,
+            "Max": 1325.0
+        },
+        {
+            "Case": "BraTS20_Training_109",
+            "Mean_Intensity": 25.673051299283156,
+            "Std_Intensity": 63.80009375712609,
+            "Min": 0.0,
+            "Max": 827.0
+        },
+        {
+            "Case": "BraTS20_Training_110",
+            "Mean_Intensity": 32.636251120071684,
+            "Std_Intensity": 83.01363564293105,
+            "Min": 0.0,
+            "Max": 799.0
+        },
+        {
+            "Case": "BraTS20_Training_111",
+            "Mean_Intensity": 35.66392741935484,
+            "Std_Intensity": 79.21330021462632,
+            "Min": 0.0,
+            "Max": 1019.0
+        },
+        {
+            "Case": "BraTS20_Training_112",
+            "Mean_Intensity": 36.653932571684585,
+            "Std_Intensity": 87.3926944890651,
+            "Min": 0.0,
+            "Max": 945.0
+        },
+        {
+            "Case": "BraTS20_Training_113",
+            "Mean_Intensity": 27.62514325716846,
+            "Std_Intensity": 69.90802416247632,
+            "Min": 0.0,
+            "Max": 615.0
+        },
+        {
+            "Case": "BraTS20_Training_114",
+            "Mean_Intensity": 37.2574186827957,
+            "Std_Intensity": 85.55279000111436,
+            "Min": 0.0,
+            "Max": 1223.0
+        },
+        {
+            "Case": "BraTS20_Training_115",
+            "Mean_Intensity": 38.506605510752685,
+            "Std_Intensity": 94.67147575318874,
+            "Min": 0.0,
+            "Max": 1023.0
+        },
+        {
+            "Case": "BraTS20_Training_116",
+            "Mean_Intensity": 33.458012656810034,
+            "Std_Intensity": 80.02516233464712,
+            "Min": 0.0,
+            "Max": 993.0
+        },
+        {
+            "Case": "BraTS20_Training_117",
+            "Mean_Intensity": 37.17458490143369,
+            "Std_Intensity": 89.08535671653854,
+            "Min": 0.0,
+            "Max": 1113.0
+        },
+        {
+            "Case": "BraTS20_Training_118",
+            "Mean_Intensity": 30.733284386200715,
+            "Std_Intensity": 72.39298391461627,
+            "Min": 0.0,
+            "Max": 918.0
+        },
+        {
+            "Case": "BraTS20_Training_119",
+            "Mean_Intensity": 22.449323700716846,
+            "Std_Intensity": 52.917466184498885,
+            "Min": 0.0,
+            "Max": 633.0
+        },
+        {
+            "Case": "BraTS20_Training_120",
+            "Mean_Intensity": 42.226202396953404,
+            "Std_Intensity": 100.75855499630917,
+            "Min": 0.0,
+            "Max": 1417.0
+        },
+        {
+            "Case": "BraTS20_Training_121",
+            "Mean_Intensity": 36.343722110215054,
+            "Std_Intensity": 87.07240375760858,
+            "Min": 0.0,
+            "Max": 917.0
+        },
+        {
+            "Case": "BraTS20_Training_122",
+            "Mean_Intensity": 25.36264460125448,
+            "Std_Intensity": 62.00153541485171,
+            "Min": 0.0,
+            "Max": 687.0
+        },
+        {
+            "Case": "BraTS20_Training_123",
+            "Mean_Intensity": 40.44090479390681,
+            "Std_Intensity": 98.71628816335765,
+            "Min": 0.0,
+            "Max": 1215.0
+        },
+        {
+            "Case": "BraTS20_Training_124",
+            "Mean_Intensity": 43.26347737455197,
+            "Std_Intensity": 108.83272609874915,
+            "Min": 0.0,
+            "Max": 631.0
+        },
+        {
+            "Case": "BraTS20_Training_125",
+            "Mean_Intensity": 32.31532112455197,
+            "Std_Intensity": 87.97682222990169,
+            "Min": 0.0,
+            "Max": 1282.0
+        },
+        {
+            "Case": "BraTS20_Training_126",
+            "Mean_Intensity": 22.49467159498208,
+            "Std_Intensity": 56.55740520978033,
+            "Min": 0.0,
+            "Max": 757.0
+        },
+        {
+            "Case": "BraTS20_Training_127",
+            "Mean_Intensity": 39.32111010304659,
+            "Std_Intensity": 95.5134427370123,
+            "Min": 0.0,
+            "Max": 1045.0
+        },
+        {
+            "Case": "BraTS20_Training_128",
+            "Mean_Intensity": 25.525818996415772,
+            "Std_Intensity": 60.97419517648966,
+            "Min": 0.0,
+            "Max": 891.0
+        },
+        {
+            "Case": "BraTS20_Training_129",
+            "Mean_Intensity": 47.82949865591398,
+            "Std_Intensity": 114.0852004620308,
+            "Min": 0.0,
+            "Max": 1032.0
+        },
+        {
+            "Case": "BraTS20_Training_130",
+            "Mean_Intensity": 59.87034375,
+            "Std_Intensity": 146.7788821719408,
+            "Min": 0.0,
+            "Max": 1273.0
+        },
+        {
+            "Case": "BraTS20_Training_131",
+            "Mean_Intensity": 53.460405353942654,
+            "Std_Intensity": 126.38690201357294,
+            "Min": 0.0,
+            "Max": 1000.0
+        },
+        {
+            "Case": "BraTS20_Training_132",
+            "Mean_Intensity": 55.72486066308244,
+            "Std_Intensity": 127.24561449461586,
+            "Min": 0.0,
+            "Max": 1072.0
+        },
+        {
+            "Case": "BraTS20_Training_133",
+            "Mean_Intensity": 63.52239034498208,
+            "Std_Intensity": 167.36186877434196,
+            "Min": 0.0,
+            "Max": 1431.0
+        },
+        {
+            "Case": "BraTS20_Training_134",
+            "Mean_Intensity": 47.089635752688174,
+            "Std_Intensity": 113.48896220357693,
+            "Min": 0.0,
+            "Max": 1005.0
+        },
+        {
+            "Case": "BraTS20_Training_135",
+            "Mean_Intensity": 33.13380051523298,
+            "Std_Intensity": 95.67860169569964,
+            "Min": 0.0,
+            "Max": 634.0
+        },
+        {
+            "Case": "BraTS20_Training_136",
+            "Mean_Intensity": 56.29191397849463,
+            "Std_Intensity": 127.65053010011538,
+            "Min": 0.0,
+            "Max": 1252.0
+        },
+        {
+            "Case": "BraTS20_Training_137",
+            "Mean_Intensity": 77.8069829749104,
+            "Std_Intensity": 174.46086887115314,
+            "Min": 0.0,
+            "Max": 1332.0
+        },
+        {
+            "Case": "BraTS20_Training_138",
+            "Mean_Intensity": 35.55681104390681,
+            "Std_Intensity": 94.2001128744597,
+            "Min": 0.0,
+            "Max": 575.0
+        },
+        {
+            "Case": "BraTS20_Training_139",
+            "Mean_Intensity": 55.51546090949821,
+            "Std_Intensity": 129.1546572503479,
+            "Min": 0.0,
+            "Max": 798.0
+        },
+        {
+            "Case": "BraTS20_Training_140",
+            "Mean_Intensity": 48.11143940412186,
+            "Std_Intensity": 119.32079969925378,
+            "Min": 0.0,
+            "Max": 880.0
+        },
+        {
+            "Case": "BraTS20_Training_141",
+            "Mean_Intensity": 38.17935461469534,
+            "Std_Intensity": 94.22683450645438,
+            "Min": 0.0,
+            "Max": 1028.0
+        },
+        {
+            "Case": "BraTS20_Training_142",
+            "Mean_Intensity": 47.1195415546595,
+            "Std_Intensity": 116.63457383393357,
+            "Min": 0.0,
+            "Max": 1099.0
+        },
+        {
+            "Case": "BraTS20_Training_143",
+            "Mean_Intensity": 68.44835943100358,
+            "Std_Intensity": 155.00367734945496,
+            "Min": 0.0,
+            "Max": 1563.0
+        },
+        {
+            "Case": "BraTS20_Training_144",
+            "Mean_Intensity": 89.86640636200717,
+            "Std_Intensity": 201.59306910053004,
+            "Min": 0.0,
+            "Max": 1523.0
+        },
+        {
+            "Case": "BraTS20_Training_145",
+            "Mean_Intensity": 26.028760528673835,
+            "Std_Intensity": 62.35783928056385,
+            "Min": 0.0,
+            "Max": 371.0
+        },
+        {
+            "Case": "BraTS20_Training_146",
+            "Mean_Intensity": 24.443012880824373,
+            "Std_Intensity": 62.94334149518443,
+            "Min": 0.0,
+            "Max": 422.0
+        },
+        {
+            "Case": "BraTS20_Training_147",
+            "Mean_Intensity": 33.19707403673835,
+            "Std_Intensity": 77.82255544618394,
+            "Min": 0.0,
+            "Max": 497.0
+        },
+        {
+            "Case": "BraTS20_Training_148",
+            "Mean_Intensity": 30.220629816308243,
+            "Std_Intensity": 74.96470097196793,
+            "Min": 0.0,
+            "Max": 835.0
+        },
+        {
+            "Case": "BraTS20_Training_149",
+            "Mean_Intensity": 37.317758400537635,
+            "Std_Intensity": 85.65265857034385,
+            "Min": 0.0,
+            "Max": 507.0
+        },
+        {
+            "Case": "BraTS20_Training_150",
+            "Mean_Intensity": 109.39055208333333,
+            "Std_Intensity": 310.86680112295403,
+            "Min": 0.0,
+            "Max": 1937.0
+        },
+        {
+            "Case": "BraTS20_Training_151",
+            "Mean_Intensity": 144.94696863799282,
+            "Std_Intensity": 344.16319864390033,
+            "Min": 0.0,
+            "Max": 2582.0
+        },
+        {
+            "Case": "BraTS20_Training_152",
+            "Mean_Intensity": 74.86721012544803,
+            "Std_Intensity": 173.4431882318956,
+            "Min": 0.0,
+            "Max": 1045.0
+        },
+        {
+            "Case": "BraTS20_Training_153",
+            "Mean_Intensity": 81.69233411738351,
+            "Std_Intensity": 197.48800990943954,
+            "Min": 0.0,
+            "Max": 1342.0
+        },
+        {
+            "Case": "BraTS20_Training_154",
+            "Mean_Intensity": 141.18008478942653,
+            "Std_Intensity": 346.30726015630046,
+            "Min": 0.0,
+            "Max": 2291.0
+        },
+        {
+            "Case": "BraTS20_Training_155",
+            "Mean_Intensity": 134.98965501792114,
+            "Std_Intensity": 374.0583295356483,
+            "Min": 0.0,
+            "Max": 2677.0
+        },
+        {
+            "Case": "BraTS20_Training_156",
+            "Mean_Intensity": 138.15742484318997,
+            "Std_Intensity": 356.7684031354529,
+            "Min": 0.0,
+            "Max": 2436.0
+        },
+        {
+            "Case": "BraTS20_Training_157",
+            "Mean_Intensity": 144.58837589605736,
+            "Std_Intensity": 331.50150462547924,
+            "Min": 0.0,
+            "Max": 2403.0
+        },
+        {
+            "Case": "BraTS20_Training_158",
+            "Mean_Intensity": 21.892283154121863,
+            "Std_Intensity": 51.33428704421091,
+            "Min": 0.0,
+            "Max": 470.0
+        },
+        {
+            "Case": "BraTS20_Training_159",
+            "Mean_Intensity": 18.61419914874552,
+            "Std_Intensity": 47.14705633356124,
+            "Min": 0.0,
+            "Max": 419.0
+        },
+        {
+            "Case": "BraTS20_Training_160",
+            "Mean_Intensity": 20.377075380824373,
+            "Std_Intensity": 49.9311780922102,
+            "Min": 0.0,
+            "Max": 619.0
+        },
+        {
+            "Case": "BraTS20_Training_161",
+            "Mean_Intensity": 83.21332582885304,
+            "Std_Intensity": 200.21515592427392,
+            "Min": 0.0,
+            "Max": 1754.0
+        },
+        {
+            "Case": "BraTS20_Training_162",
+            "Mean_Intensity": 19.25255947580645,
+            "Std_Intensity": 48.96182847168732,
+            "Min": 0.0,
+            "Max": 445.0
+        },
+        {
+            "Case": "BraTS20_Training_163",
+            "Mean_Intensity": 33.795035842293906,
+            "Std_Intensity": 83.35156588446883,
+            "Min": 0.0,
+            "Max": 671.0
+        },
+        {
+            "Case": "BraTS20_Training_164",
+            "Mean_Intensity": 19.184795362903227,
+            "Std_Intensity": 46.62792526139179,
+            "Min": 0.0,
+            "Max": 400.0
+        },
+        {
+            "Case": "BraTS20_Training_165",
+            "Mean_Intensity": 24.02294545250896,
+            "Std_Intensity": 60.11211300917888,
+            "Min": 0.0,
+            "Max": 444.0
+        },
+        {
+            "Case": "BraTS20_Training_166",
+            "Mean_Intensity": 27.5814499327957,
+            "Std_Intensity": 65.97035943186737,
+            "Min": 0.0,
+            "Max": 461.0
+        },
+        {
+            "Case": "BraTS20_Training_167",
+            "Mean_Intensity": 18.34333702956989,
+            "Std_Intensity": 46.43823618491983,
+            "Min": 0.0,
+            "Max": 301.0
+        },
+        {
+            "Case": "BraTS20_Training_168",
+            "Mean_Intensity": 64.83987331989248,
+            "Std_Intensity": 154.3414971257133,
+            "Min": 0.0,
+            "Max": 963.0
+        },
+        {
+            "Case": "BraTS20_Training_169",
+            "Mean_Intensity": 88.54914269713262,
+            "Std_Intensity": 203.78728542865073,
+            "Min": 0.0,
+            "Max": 1583.0
+        },
+        {
+            "Case": "BraTS20_Training_170",
+            "Mean_Intensity": 27.74273252688172,
+            "Std_Intensity": 65.10850607771098,
+            "Min": 0.0,
+            "Max": 480.0
+        },
+        {
+            "Case": "BraTS20_Training_171",
+            "Mean_Intensity": 103.70844041218638,
+            "Std_Intensity": 255.2079767878944,
+            "Min": 0.0,
+            "Max": 1877.0
+        },
+        {
+            "Case": "BraTS20_Training_172",
+            "Mean_Intensity": 91.80637443996416,
+            "Std_Intensity": 212.5123914183433,
+            "Min": 0.0,
+            "Max": 1755.0
+        },
+        {
+            "Case": "BraTS20_Training_173",
+            "Mean_Intensity": 123.40359531810036,
+            "Std_Intensity": 295.9482923647787,
+            "Min": 0.0,
+            "Max": 1595.0
+        },
+        {
+            "Case": "BraTS20_Training_174",
+            "Mean_Intensity": 18.49915053763441,
+            "Std_Intensity": 48.69595267422264,
+            "Min": 0.0,
+            "Max": 438.0
+        },
+        {
+            "Case": "BraTS20_Training_175",
+            "Mean_Intensity": 26.479472894265232,
+            "Std_Intensity": 65.62177087812412,
+            "Min": 0.0,
+            "Max": 445.0
+        },
+        {
+            "Case": "BraTS20_Training_176",
+            "Mean_Intensity": 105.73513485663082,
+            "Std_Intensity": 259.22678903751296,
+            "Min": 0.0,
+            "Max": 1440.0
+        },
+        {
+            "Case": "BraTS20_Training_177",
+            "Mean_Intensity": 17.717349014336918,
+            "Std_Intensity": 40.74740906947933,
+            "Min": 0.0,
+            "Max": 309.0
+        },
+        {
+            "Case": "BraTS20_Training_178",
+            "Mean_Intensity": 22.785692316308243,
+            "Std_Intensity": 53.197796884702875,
+            "Min": 0.0,
+            "Max": 492.0
+        },
+        {
+            "Case": "BraTS20_Training_179",
+            "Mean_Intensity": 19.61446090949821,
+            "Std_Intensity": 51.14699880698626,
+            "Min": 0.0,
+            "Max": 1258.0
+        },
+        {
+            "Case": "BraTS20_Training_180",
+            "Mean_Intensity": 25.43749775985663,
+            "Std_Intensity": 64.5757708896143,
+            "Min": 0.0,
+            "Max": 516.0
+        },
+        {
+            "Case": "BraTS20_Training_181",
+            "Mean_Intensity": 74.33515266577061,
+            "Std_Intensity": 196.89660059996302,
+            "Min": 0.0,
+            "Max": 1224.0
+        },
+        {
+            "Case": "BraTS20_Training_182",
+            "Mean_Intensity": 44.76689157706093,
+            "Std_Intensity": 107.77411814512567,
+            "Min": 0.0,
+            "Max": 757.0
+        },
+        {
+            "Case": "BraTS20_Training_183",
+            "Mean_Intensity": 17.83166061827957,
+            "Std_Intensity": 47.84341384477158,
+            "Min": 0.0,
+            "Max": 382.0
+        },
+        {
+            "Case": "BraTS20_Training_184",
+            "Mean_Intensity": 62.25277284946237,
+            "Std_Intensity": 152.26371435639254,
+            "Min": 0.0,
+            "Max": 1244.0
+        },
+        {
+            "Case": "BraTS20_Training_185",
+            "Mean_Intensity": 93.7802436155914,
+            "Std_Intensity": 213.06152361521455,
+            "Min": 0.0,
+            "Max": 1914.0
+        },
+        {
+            "Case": "BraTS20_Training_186",
+            "Mean_Intensity": 20.711296931003584,
+            "Std_Intensity": 52.78260061569209,
+            "Min": 0.0,
+            "Max": 389.0
+        },
+        {
+            "Case": "BraTS20_Training_187",
+            "Mean_Intensity": 15.592198588709678,
+            "Std_Intensity": 42.20758518536817,
+            "Min": 0.0,
+            "Max": 585.0
+        },
+        {
+            "Case": "BraTS20_Training_188",
+            "Mean_Intensity": 57.50027766577061,
+            "Std_Intensity": 148.36302167987884,
+            "Min": 0.0,
+            "Max": 1032.0
+        },
+        {
+            "Case": "BraTS20_Training_189",
+            "Mean_Intensity": 23.36128046594982,
+            "Std_Intensity": 55.20144339592076,
+            "Min": 0.0,
+            "Max": 473.0
+        },
+        {
+            "Case": "BraTS20_Training_190",
+            "Mean_Intensity": 21.322112343189964,
+            "Std_Intensity": 54.566327333363546,
+            "Min": 0.0,
+            "Max": 637.0
+        },
+        {
+            "Case": "BraTS20_Training_191",
+            "Mean_Intensity": 23.700687948028673,
+            "Std_Intensity": 59.71129100622987,
+            "Min": 0.0,
+            "Max": 703.0
+        },
+        {
+            "Case": "BraTS20_Training_192",
+            "Mean_Intensity": 19.28001310483871,
+            "Std_Intensity": 52.77585303065805,
+            "Min": 0.0,
+            "Max": 555.0
+        },
+        {
+            "Case": "BraTS20_Training_193",
+            "Mean_Intensity": 28.213306339605733,
+            "Std_Intensity": 68.28383216443386,
+            "Min": 0.0,
+            "Max": 2325.0
+        },
+        {
+            "Case": "BraTS20_Training_194",
+            "Mean_Intensity": 5.195542450716846,
+            "Std_Intensity": 13.10158059257069,
+            "Min": 0.0,
+            "Max": 133.0
+        },
+        {
+            "Case": "BraTS20_Training_195",
+            "Mean_Intensity": 106.45179256272401,
+            "Std_Intensity": 253.51727424692191,
+            "Min": 0.0,
+            "Max": 1584.0
+        },
+        {
+            "Case": "BraTS20_Training_196",
+            "Mean_Intensity": 22.027253248207884,
+            "Std_Intensity": 59.01616039445501,
+            "Min": 0.0,
+            "Max": 517.0
+        },
+        {
+            "Case": "BraTS20_Training_197",
+            "Mean_Intensity": 9.671768929211469,
+            "Std_Intensity": 24.917561540470256,
+            "Min": 0.0,
+            "Max": 243.0
+        },
+        {
+            "Case": "BraTS20_Training_198",
+            "Mean_Intensity": 20.489089045698925,
+            "Std_Intensity": 50.717733526630894,
+            "Min": 0.0,
+            "Max": 454.0
+        },
+        {
+            "Case": "BraTS20_Training_199",
+            "Mean_Intensity": 20.535521169354837,
+            "Std_Intensity": 51.351963197361876,
+            "Min": 0.0,
+            "Max": 451.0
+        },
+        {
+            "Case": "BraTS20_Training_200",
+            "Mean_Intensity": 18.393295586917564,
+            "Std_Intensity": 44.47790725508462,
+            "Min": 0.0,
+            "Max": 367.0
+        },
+        {
+            "Case": "BraTS20_Training_201",
+            "Mean_Intensity": 25.48585394265233,
+            "Std_Intensity": 61.72872903325545,
+            "Min": 0.0,
+            "Max": 492.0
+        },
+        {
+            "Case": "BraTS20_Training_202",
+            "Mean_Intensity": 55.16074126344086,
+            "Std_Intensity": 126.87405425982571,
+            "Min": 0.0,
+            "Max": 763.0
+        },
+        {
+            "Case": "BraTS20_Training_203",
+            "Mean_Intensity": 52.39257258064516,
+            "Std_Intensity": 124.27447479728734,
+            "Min": 0.0,
+            "Max": 824.0
+        },
+        {
+            "Case": "BraTS20_Training_204",
+            "Mean_Intensity": 17.929520497311827,
+            "Std_Intensity": 42.21498740182135,
+            "Min": 0.0,
+            "Max": 700.0
+        },
+        {
+            "Case": "BraTS20_Training_205",
+            "Mean_Intensity": 50.016981518817204,
+            "Std_Intensity": 118.91963436705699,
+            "Min": 0.0,
+            "Max": 996.0
+        },
+        {
+            "Case": "BraTS20_Training_206",
+            "Mean_Intensity": 39.50577609767025,
+            "Std_Intensity": 107.21771045215753,
+            "Min": 0.0,
+            "Max": 800.0
+        },
+        {
+            "Case": "BraTS20_Training_207",
+            "Mean_Intensity": 14.48218817204301,
+            "Std_Intensity": 33.26443751940648,
+            "Min": 0.0,
+            "Max": 476.0
+        },
+        {
+            "Case": "BraTS20_Training_208",
+            "Mean_Intensity": 41.07736491935484,
+            "Std_Intensity": 96.6134058924373,
+            "Min": 0.0,
+            "Max": 569.0
+        },
+        {
+            "Case": "BraTS20_Training_209",
+            "Mean_Intensity": 33.07923745519713,
+            "Std_Intensity": 78.9131221022792,
+            "Min": 0.0,
+            "Max": 419.0
+        },
+        {
+            "Case": "BraTS20_Training_210",
+            "Mean_Intensity": 28.56480029121864,
+            "Std_Intensity": 72.3562018928297,
+            "Min": 0.0,
+            "Max": 597.0
+        },
+        {
+            "Case": "BraTS20_Training_211",
+            "Mean_Intensity": 51.155407258064514,
+            "Std_Intensity": 121.30152310978715,
+            "Min": 0.0,
+            "Max": 720.0
+        },
+        {
+            "Case": "BraTS20_Training_212",
+            "Mean_Intensity": 50.64562511200717,
+            "Std_Intensity": 119.29896195511786,
+            "Min": 0.0,
+            "Max": 730.0
+        },
+        {
+            "Case": "BraTS20_Training_213",
+            "Mean_Intensity": 49.57545150089606,
+            "Std_Intensity": 118.72755754990709,
+            "Min": 0.0,
+            "Max": 661.0
+        },
+        {
+            "Case": "BraTS20_Training_214",
+            "Mean_Intensity": 24.062070676523298,
+            "Std_Intensity": 65.49869672247826,
+            "Min": 0.0,
+            "Max": 501.0
+        },
+        {
+            "Case": "BraTS20_Training_215",
+            "Mean_Intensity": 19.541399641577062,
+            "Std_Intensity": 52.00511079321439,
+            "Min": 0.0,
+            "Max": 499.0
+        },
+        {
+            "Case": "BraTS20_Training_216",
+            "Mean_Intensity": 15.44171426971326,
+            "Std_Intensity": 42.51772006926478,
+            "Min": 0.0,
+            "Max": 624.0
+        },
+        {
+            "Case": "BraTS20_Training_217",
+            "Mean_Intensity": 18.124617383512543,
+            "Std_Intensity": 44.421487609686615,
+            "Min": 0.0,
+            "Max": 449.0
+        },
+        {
+            "Case": "BraTS20_Training_218",
+            "Mean_Intensity": 21.232949260752687,
+            "Std_Intensity": 54.552453304147974,
+            "Min": 0.0,
+            "Max": 629.0
+        },
+        {
+            "Case": "BraTS20_Training_219",
+            "Mean_Intensity": 17.011421594982078,
+            "Std_Intensity": 42.404684426938665,
+            "Min": 0.0,
+            "Max": 404.0
+        },
+        {
+            "Case": "BraTS20_Training_220",
+            "Mean_Intensity": 44.371499103942654,
+            "Std_Intensity": 104.67284765035612,
+            "Min": 0.0,
+            "Max": 947.0
+        },
+        {
+            "Case": "BraTS20_Training_221",
+            "Mean_Intensity": 22.561257840501792,
+            "Std_Intensity": 52.6487892933352,
+            "Min": 0.0,
+            "Max": 339.0
+        },
+        {
+            "Case": "BraTS20_Training_222",
+            "Mean_Intensity": 16.46931339605735,
+            "Std_Intensity": 39.76841429891643,
+            "Min": 0.0,
+            "Max": 451.0
+        },
+        {
+            "Case": "BraTS20_Training_223",
+            "Mean_Intensity": 21.614416890681003,
+            "Std_Intensity": 52.8616183037284,
+            "Min": 0.0,
+            "Max": 389.0
+        },
+        {
+            "Case": "BraTS20_Training_224",
+            "Mean_Intensity": 22.705440972222224,
+            "Std_Intensity": 59.01393214636748,
+            "Min": 0.0,
+            "Max": 703.0
+        },
+        {
+            "Case": "BraTS20_Training_225",
+            "Mean_Intensity": 39.030436603942654,
+            "Std_Intensity": 97.57032612204898,
+            "Min": 0.0,
+            "Max": 1069.0
+        },
+        {
+            "Case": "BraTS20_Training_226",
+            "Mean_Intensity": 68.24580320340502,
+            "Std_Intensity": 164.94795622090146,
+            "Min": 0.0,
+            "Max": 1178.0
+        },
+        {
+            "Case": "BraTS20_Training_227",
+            "Mean_Intensity": 16.708896393369177,
+            "Std_Intensity": 39.45751580346945,
+            "Min": 0.0,
+            "Max": 370.0
+        },
+        {
+            "Case": "BraTS20_Training_228",
+            "Mean_Intensity": 47.60394937275986,
+            "Std_Intensity": 116.9605543795567,
+            "Min": 0.0,
+            "Max": 605.0
+        },
+        {
+            "Case": "BraTS20_Training_229",
+            "Mean_Intensity": 25.87299507168459,
+            "Std_Intensity": 62.803264409661516,
+            "Min": 0.0,
+            "Max": 457.0
+        },
+        {
+            "Case": "BraTS20_Training_230",
+            "Mean_Intensity": 33.27739751344086,
+            "Std_Intensity": 88.71104061898338,
+            "Min": 0.0,
+            "Max": 508.0
+        },
+        {
+            "Case": "BraTS20_Training_231",
+            "Mean_Intensity": 41.03478393817204,
+            "Std_Intensity": 105.80663011948532,
+            "Min": 0.0,
+            "Max": 568.0
+        },
+        {
+            "Case": "BraTS20_Training_232",
+            "Mean_Intensity": 37.872864359318996,
+            "Std_Intensity": 88.57480376469614,
+            "Min": 0.0,
+            "Max": 884.0
+        },
+        {
+            "Case": "BraTS20_Training_233",
+            "Mean_Intensity": 86.14054289874552,
+            "Std_Intensity": 201.99819475532215,
+            "Min": 0.0,
+            "Max": 1105.0
+        },
+        {
+            "Case": "BraTS20_Training_234",
+            "Mean_Intensity": 24.673250224014335,
+            "Std_Intensity": 56.569836605485264,
+            "Min": 0.0,
+            "Max": 346.0
+        },
+        {
+            "Case": "BraTS20_Training_235",
+            "Mean_Intensity": 73.76070710125448,
+            "Std_Intensity": 174.96103483702512,
+            "Min": 0.0,
+            "Max": 1296.0
+        },
+        {
+            "Case": "BraTS20_Training_236",
+            "Mean_Intensity": 66.66752184139784,
+            "Std_Intensity": 152.20842768809442,
+            "Min": 0.0,
+            "Max": 1171.0
+        },
+        {
+            "Case": "BraTS20_Training_237",
+            "Mean_Intensity": 53.518730734767026,
+            "Std_Intensity": 134.4049963717759,
+            "Min": 0.0,
+            "Max": 795.0
+        },
+        {
+            "Case": "BraTS20_Training_238",
+            "Mean_Intensity": 47.447002464157706,
+            "Std_Intensity": 120.24833286330653,
+            "Min": 0.0,
+            "Max": 976.0
+        },
+        {
+            "Case": "BraTS20_Training_239",
+            "Mean_Intensity": 39.42850313620072,
+            "Std_Intensity": 99.48283772027018,
+            "Min": 0.0,
+            "Max": 942.0
+        },
+        {
+            "Case": "BraTS20_Training_240",
+            "Mean_Intensity": 48.705616151433695,
+            "Std_Intensity": 116.07390636486406,
+            "Min": 0.0,
+            "Max": 747.0
+        },
+        {
+            "Case": "BraTS20_Training_241",
+            "Mean_Intensity": 47.444445004480286,
+            "Std_Intensity": 111.08880486740439,
+            "Min": 0.0,
+            "Max": 649.0
+        },
+        {
+            "Case": "BraTS20_Training_242",
+            "Mean_Intensity": 46.92116722670251,
+            "Std_Intensity": 114.84496234882783,
+            "Min": 0.0,
+            "Max": 1037.0
+        },
+        {
+            "Case": "BraTS20_Training_243",
+            "Mean_Intensity": 47.9058874327957,
+            "Std_Intensity": 114.17622299015132,
+            "Min": 0.0,
+            "Max": 1433.0
+        },
+        {
+            "Case": "BraTS20_Training_244",
+            "Mean_Intensity": 54.396076836917565,
+            "Std_Intensity": 131.40867029259303,
+            "Min": 0.0,
+            "Max": 1371.0
+        },
+        {
+            "Case": "BraTS20_Training_245",
+            "Mean_Intensity": 60.504291554659495,
+            "Std_Intensity": 163.5693182731037,
+            "Min": 0.0,
+            "Max": 2267.0
+        },
+        {
+            "Case": "BraTS20_Training_246",
+            "Mean_Intensity": 51.23316733870968,
+            "Std_Intensity": 132.2591932963337,
+            "Min": 0.0,
+            "Max": 1020.0
+        },
+        {
+            "Case": "BraTS20_Training_247",
+            "Mean_Intensity": 68.56334307795699,
+            "Std_Intensity": 171.3409875628612,
+            "Min": 0.0,
+            "Max": 1356.0
+        },
+        {
+            "Case": "BraTS20_Training_248",
+            "Mean_Intensity": 116.63012880824373,
+            "Std_Intensity": 296.98577815639106,
+            "Min": 0.0,
+            "Max": 2292.0
+        },
+        {
+            "Case": "BraTS20_Training_249",
+            "Mean_Intensity": 63.22615916218638,
+            "Std_Intensity": 147.35260272333312,
+            "Min": 0.0,
+            "Max": 1331.0
+        },
+        {
+            "Case": "BraTS20_Training_250",
+            "Mean_Intensity": 65.3455184811828,
+            "Std_Intensity": 152.31335987596583,
+            "Min": 0.0,
+            "Max": 939.0
+        },
+        {
+            "Case": "BraTS20_Training_251",
+            "Mean_Intensity": 19.937449148745518,
+            "Std_Intensity": 47.90422584900059,
+            "Min": 0.0,
+            "Max": 360.0
+        },
+        {
+            "Case": "BraTS20_Training_252",
+            "Mean_Intensity": 78.07701164874553,
+            "Std_Intensity": 172.8976355545729,
+            "Min": 0.0,
+            "Max": 1063.0
+        },
+        {
+            "Case": "BraTS20_Training_253",
+            "Mean_Intensity": 54.59553068996416,
+            "Std_Intensity": 132.43136970232803,
+            "Min": 0.0,
+            "Max": 949.0
+        },
+        {
+            "Case": "BraTS20_Training_254",
+            "Mean_Intensity": 97.10523219086022,
+            "Std_Intensity": 230.0278903754538,
+            "Min": 0.0,
+            "Max": 2250.0
+        },
+        {
+            "Case": "BraTS20_Training_255",
+            "Mean_Intensity": 60.147943100358425,
+            "Std_Intensity": 144.48566850827058,
+            "Min": 0.0,
+            "Max": 964.0
+        },
+        {
+            "Case": "BraTS20_Training_256",
+            "Mean_Intensity": 108.17895665322581,
+            "Std_Intensity": 254.2104945526697,
+            "Min": 0.0,
+            "Max": 1981.0
+        },
+        {
+            "Case": "BraTS20_Training_257",
+            "Mean_Intensity": 90.59520788530466,
+            "Std_Intensity": 203.2168275771074,
+            "Min": 0.0,
+            "Max": 1477.0
+        },
+        {
+            "Case": "BraTS20_Training_258",
+            "Mean_Intensity": 110.96975918458782,
+            "Std_Intensity": 273.8738517230627,
+            "Min": 0.0,
+            "Max": 2118.0
+        },
+        {
+            "Case": "BraTS20_Training_259",
+            "Mean_Intensity": 95.83337007168458,
+            "Std_Intensity": 259.66263045999716,
+            "Min": 0.0,
+            "Max": 2026.0
+        },
+        {
+            "Case": "BraTS20_Training_260",
+            "Mean_Intensity": 34.415319556451614,
+            "Std_Intensity": 100.94837022945156,
+            "Min": 0.0,
+            "Max": 2139.0
+        },
+        {
+            "Case": "BraTS20_Training_261",
+            "Mean_Intensity": 31.198392585125447,
+            "Std_Intensity": 93.71346502461118,
+            "Min": 0.0,
+            "Max": 589.0
+        },
+        {
+            "Case": "BraTS20_Training_262",
+            "Mean_Intensity": 50.4831711469534,
+            "Std_Intensity": 116.47551417860109,
+            "Min": 0.0,
+            "Max": 637.0
+        },
+        {
+            "Case": "BraTS20_Training_263",
+            "Mean_Intensity": 67.47272726254481,
+            "Std_Intensity": 166.59826175374567,
+            "Min": 0.0,
+            "Max": 1294.0
+        },
+        {
+            "Case": "BraTS20_Training_264",
+            "Mean_Intensity": 20.339167562724015,
+            "Std_Intensity": 68.48095633759033,
+            "Min": 0.0,
+            "Max": 736.0
+        },
+        {
+            "Case": "BraTS20_Training_265",
+            "Mean_Intensity": 31.046706205197133,
+            "Std_Intensity": 79.17427044754201,
+            "Min": 0.0,
+            "Max": 514.0
+        },
+        {
+            "Case": "BraTS20_Training_266",
+            "Mean_Intensity": 26.35707403673835,
+            "Std_Intensity": 63.997636803162564,
+            "Min": 0.0,
+            "Max": 360.0
+        },
+        {
+            "Case": "BraTS20_Training_267",
+            "Mean_Intensity": 28.724320228494623,
+            "Std_Intensity": 70.09336352550537,
+            "Min": 0.0,
+            "Max": 529.0
+        },
+        {
+            "Case": "BraTS20_Training_268",
+            "Mean_Intensity": 26.88083434139785,
+            "Std_Intensity": 63.435403659365775,
+            "Min": 0.0,
+            "Max": 459.0
+        },
+        {
+            "Case": "BraTS20_Training_269",
+            "Mean_Intensity": 22.443581765232974,
+            "Std_Intensity": 55.84440577902628,
+            "Min": 0.0,
+            "Max": 342.0
+        },
+        {
+            "Case": "BraTS20_Training_270",
+            "Mean_Intensity": 130.54496639784946,
+            "Std_Intensity": 344.02091659304193,
+            "Min": 0.0,
+            "Max": 2116.0
+        },
+        {
+            "Case": "BraTS20_Training_271",
+            "Mean_Intensity": 128.6265301299283,
+            "Std_Intensity": 328.6910541468213,
+            "Min": 0.0,
+            "Max": 2929.0
+        },
+        {
+            "Case": "BraTS20_Training_272",
+            "Mean_Intensity": 69.34150940860215,
+            "Std_Intensity": 168.78327051723514,
+            "Min": 0.0,
+            "Max": 1036.0
+        },
+        {
+            "Case": "BraTS20_Training_273",
+            "Mean_Intensity": 65.8589420922939,
+            "Std_Intensity": 156.2211332989341,
+            "Min": 0.0,
+            "Max": 960.0
+        },
+        {
+            "Case": "BraTS20_Training_274",
+            "Mean_Intensity": 92.01522356630825,
+            "Std_Intensity": 225.2369253847472,
+            "Min": 0.0,
+            "Max": 1696.0
+        },
+        {
+            "Case": "BraTS20_Training_275",
+            "Mean_Intensity": 75.17701332885305,
+            "Std_Intensity": 189.90026144824955,
+            "Min": 0.0,
+            "Max": 1324.0
+        },
+        {
+            "Case": "BraTS20_Training_276",
+            "Mean_Intensity": 155.52581205197131,
+            "Std_Intensity": 361.161984066634,
+            "Min": 0.0,
+            "Max": 1988.0
+        },
+        {
+            "Case": "BraTS20_Training_277",
+            "Mean_Intensity": 1774.936224126344,
+            "Std_Intensity": 3754.574195176513,
+            "Min": 0.0,
+            "Max": 32767.0
+        },
+        {
+            "Case": "BraTS20_Training_278",
+            "Mean_Intensity": 92.0540085125448,
+            "Std_Intensity": 236.52695275096946,
+            "Min": 0.0,
+            "Max": 1698.0
+        },
+        {
+            "Case": "BraTS20_Training_279",
+            "Mean_Intensity": 80.89944522849463,
+            "Std_Intensity": 182.41797421871883,
+            "Min": 0.0,
+            "Max": 1654.0
+        },
+        {
+            "Case": "BraTS20_Training_280",
+            "Mean_Intensity": 96.85015737007168,
+            "Std_Intensity": 232.3290018548117,
+            "Min": 0.0,
+            "Max": 1426.0
+        },
+        {
+            "Case": "BraTS20_Training_281",
+            "Mean_Intensity": 101.1925873655914,
+            "Std_Intensity": 246.70563462616494,
+            "Min": 0.0,
+            "Max": 1356.0
+        },
+        {
+            "Case": "BraTS20_Training_282",
+            "Mean_Intensity": 22.30266789874552,
+            "Std_Intensity": 56.073466424670926,
+            "Min": 0.0,
+            "Max": 467.0
+        },
+        {
+            "Case": "BraTS20_Training_283",
+            "Mean_Intensity": 22.841120967741936,
+            "Std_Intensity": 55.13326060569851,
+            "Min": 0.0,
+            "Max": 504.0
+        },
+        {
+            "Case": "BraTS20_Training_284",
+            "Mean_Intensity": 163.5575075044803,
+            "Std_Intensity": 366.53126618653295,
+            "Min": 0.0,
+            "Max": 1876.0
+        },
+        {
+            "Case": "BraTS20_Training_285",
+            "Mean_Intensity": 18.913447580645162,
+            "Std_Intensity": 48.88671869233057,
+            "Min": 0.0,
+            "Max": 475.0
+        },
+        {
+            "Case": "BraTS20_Training_286",
+            "Mean_Intensity": 52.06784240591398,
+            "Std_Intensity": 125.74620684967327,
+            "Min": 0.0,
+            "Max": 912.0
+        },
+        {
+            "Case": "BraTS20_Training_287",
+            "Mean_Intensity": 20.257495519713263,
+            "Std_Intensity": 50.154128341049706,
+            "Min": 0.0,
+            "Max": 395.0
+        },
+        {
+            "Case": "BraTS20_Training_288",
+            "Mean_Intensity": 56.822775201612906,
+            "Std_Intensity": 123.1241239205958,
+            "Min": 0.0,
+            "Max": 1055.0
+        },
+        {
+            "Case": "BraTS20_Training_289",
+            "Mean_Intensity": 25.63923263888889,
+            "Std_Intensity": 66.78763960336035,
+            "Min": 0.0,
+            "Max": 547.0
+        },
+        {
+            "Case": "BraTS20_Training_290",
+            "Mean_Intensity": 22.78994489247312,
+            "Std_Intensity": 57.09609073413537,
+            "Min": 0.0,
+            "Max": 420.0
+        },
+        {
+            "Case": "BraTS20_Training_291",
+            "Mean_Intensity": 16.312641129032258,
+            "Std_Intensity": 39.195871823185826,
+            "Min": 0.0,
+            "Max": 357.0
+        },
+        {
+            "Case": "BraTS20_Training_292",
+            "Mean_Intensity": 106.85115815412186,
+            "Std_Intensity": 267.4698236513274,
+            "Min": 0.0,
+            "Max": 2043.0
+        },
+        {
+            "Case": "BraTS20_Training_293",
+            "Mean_Intensity": 80.9556850358423,
+            "Std_Intensity": 195.60895203652757,
+            "Min": 0.0,
+            "Max": 1141.0
+        },
+        {
+            "Case": "BraTS20_Training_294",
+            "Mean_Intensity": 35.8602436155914,
+            "Std_Intensity": 81.30333869751955,
+            "Min": 0.0,
+            "Max": 606.0
+        },
+        {
+            "Case": "BraTS20_Training_295",
+            "Mean_Intensity": 41.917558579749105,
+            "Std_Intensity": 111.86418506278352,
+            "Min": 0.0,
+            "Max": 780.0
+        },
+        {
+            "Case": "BraTS20_Training_296",
+            "Mean_Intensity": 24.576402441756272,
+            "Std_Intensity": 62.94873979045426,
+            "Min": 0.0,
+            "Max": 625.0
+        },
+        {
+            "Case": "BraTS20_Training_297",
+            "Mean_Intensity": 82.70947110215054,
+            "Std_Intensity": 193.78070328581185,
+            "Min": 0.0,
+            "Max": 1302.0
+        },
+        {
+            "Case": "BraTS20_Training_298",
+            "Mean_Intensity": 84.5521875,
+            "Std_Intensity": 207.5050612373102,
+            "Min": 0.0,
+            "Max": 1245.0
+        },
+        {
+            "Case": "BraTS20_Training_299",
+            "Mean_Intensity": 86.47513888888889,
+            "Std_Intensity": 200.39564861003322,
+            "Min": 0.0,
+            "Max": 1345.0
+        },
+        {
+            "Case": "BraTS20_Training_300",
+            "Mean_Intensity": 73.01411995967742,
+            "Std_Intensity": 184.7433831961089,
+            "Min": 0.0,
+            "Max": 1107.0
+        },
+        {
+            "Case": "BraTS20_Training_301",
+            "Mean_Intensity": 50.44663519265233,
+            "Std_Intensity": 123.41980449171336,
+            "Min": 0.0,
+            "Max": 1077.0
+        },
+        {
+            "Case": "BraTS20_Training_302",
+            "Mean_Intensity": 48.15624439964158,
+            "Std_Intensity": 115.0370109772814,
+            "Min": 0.0,
+            "Max": 897.0
+        },
+        {
+            "Case": "BraTS20_Training_303",
+            "Mean_Intensity": 44.0283313172043,
+            "Std_Intensity": 108.90225999107014,
+            "Min": 0.0,
+            "Max": 681.0
+        },
+        {
+            "Case": "BraTS20_Training_304",
+            "Mean_Intensity": 41.28973084677419,
+            "Std_Intensity": 111.40683058862592,
+            "Min": 0.0,
+            "Max": 921.0
+        },
+        {
+            "Case": "BraTS20_Training_305",
+            "Mean_Intensity": 89.01512824820789,
+            "Std_Intensity": 213.06146678126248,
+            "Min": 0.0,
+            "Max": 1467.0
+        },
+        {
+            "Case": "BraTS20_Training_306",
+            "Mean_Intensity": 83.11146046146953,
+            "Std_Intensity": 194.69017962094483,
+            "Min": 0.0,
+            "Max": 1116.0
+        },
+        {
+            "Case": "BraTS20_Training_307",
+            "Mean_Intensity": 72.2987794578853,
+            "Std_Intensity": 184.43356608316176,
+            "Min": 0.0,
+            "Max": 1059.0
+        },
+        {
+            "Case": "BraTS20_Training_308",
+            "Mean_Intensity": 81.40323734318996,
+            "Std_Intensity": 204.0499863458927,
+            "Min": 0.0,
+            "Max": 1460.0
+        },
+        {
+            "Case": "BraTS20_Training_309",
+            "Mean_Intensity": 87.00026344086021,
+            "Std_Intensity": 203.55411463883632,
+            "Min": 0.0,
+            "Max": 1440.0
+        },
+        {
+            "Case": "BraTS20_Training_310",
+            "Mean_Intensity": 63.36869444444444,
+            "Std_Intensity": 144.96035720484633,
+            "Min": 0.0,
+            "Max": 1503.0
+        },
+        {
+            "Case": "BraTS20_Training_311",
+            "Mean_Intensity": 13.567452396953405,
+            "Std_Intensity": 31.024653368197388,
+            "Min": 0.0,
+            "Max": 320.0
+        },
+        {
+            "Case": "BraTS20_Training_312",
+            "Mean_Intensity": 54.46226086469534,
+            "Std_Intensity": 130.644659657558,
+            "Min": 0.0,
+            "Max": 696.0
+        },
+        {
+            "Case": "BraTS20_Training_313",
+            "Mean_Intensity": 2353.9124705421145,
+            "Std_Intensity": 5565.318345838578,
+            "Min": 0.0,
+            "Max": 32767.0
+        },
+        {
+            "Case": "BraTS20_Training_314",
+            "Mean_Intensity": 65.50356093189964,
+            "Std_Intensity": 163.02262026221453,
+            "Min": 0.0,
+            "Max": 1227.0
+        },
+        {
+            "Case": "BraTS20_Training_315",
+            "Mean_Intensity": 1552.9088313172042,
+            "Std_Intensity": 3617.7330736978925,
+            "Min": 0.0,
+            "Max": 32767.0
+        },
+        {
+            "Case": "BraTS20_Training_316",
+            "Mean_Intensity": 1575.7808179883511,
+            "Std_Intensity": 3887.243776721313,
+            "Min": 0.0,
+            "Max": 32767.0
+        },
+        {
+            "Case": "BraTS20_Training_317",
+            "Mean_Intensity": 36.2175773969534,
+            "Std_Intensity": 84.66502505615934,
+            "Min": 0.0,
+            "Max": 652.0
+        },
+        {
+            "Case": "BraTS20_Training_318",
+            "Mean_Intensity": 51.81235539874552,
+            "Std_Intensity": 116.7327404926406,
+            "Min": 0.0,
+            "Max": 729.0
+        },
+        {
+            "Case": "BraTS20_Training_319",
+            "Mean_Intensity": 40.655086805555555,
+            "Std_Intensity": 102.5510186771924,
+            "Min": 0.0,
+            "Max": 622.0
+        },
+        {
+            "Case": "BraTS20_Training_320",
+            "Mean_Intensity": 33.58562869623656,
+            "Std_Intensity": 74.95654060258026,
+            "Min": 0.0,
+            "Max": 638.0
+        },
+        {
+            "Case": "BraTS20_Training_321",
+            "Mean_Intensity": 62.25434016577061,
+            "Std_Intensity": 150.6549398612816,
+            "Min": 0.0,
+            "Max": 987.0
+        },
+        {
+            "Case": "BraTS20_Training_322",
+            "Mean_Intensity": 48.69616913082437,
+            "Std_Intensity": 114.48090740444525,
+            "Min": 0.0,
+            "Max": 810.0
+        },
+        {
+            "Case": "BraTS20_Training_323",
+            "Mean_Intensity": 58.34731933243727,
+            "Std_Intensity": 141.96170662564975,
+            "Min": 0.0,
+            "Max": 968.0
+        },
+        {
+            "Case": "BraTS20_Training_324",
+            "Mean_Intensity": 79.53854659498208,
+            "Std_Intensity": 169.7865807690115,
+            "Min": 0.0,
+            "Max": 1093.0
+        },
+        {
+            "Case": "BraTS20_Training_325",
+            "Mean_Intensity": 65.05782896505376,
+            "Std_Intensity": 149.95133285326799,
+            "Min": 0.0,
+            "Max": 1466.0
+        },
+        {
+            "Case": "BraTS20_Training_326",
+            "Mean_Intensity": 58.58999417562724,
+            "Std_Intensity": 145.13104403894874,
+            "Min": 0.0,
+            "Max": 1087.0
+        },
+        {
+            "Case": "BraTS20_Training_327",
+            "Mean_Intensity": 89.97697703853046,
+            "Std_Intensity": 181.2426650606598,
+            "Min": 0.0,
+            "Max": 1072.0
+        },
+        {
+            "Case": "BraTS20_Training_328",
+            "Mean_Intensity": 36.94738306451613,
+            "Std_Intensity": 85.857172438831,
+            "Min": 0.0,
+            "Max": 568.0
+        },
+        {
+            "Case": "BraTS20_Training_329",
+            "Mean_Intensity": 79.64429995519713,
+            "Std_Intensity": 183.4915780551604,
+            "Min": 0.0,
+            "Max": 1289.0
+        },
+        {
+            "Case": "BraTS20_Training_330",
+            "Mean_Intensity": 44.408312275985665,
+            "Std_Intensity": 109.92794745295552,
+            "Min": 0.0,
+            "Max": 819.0
+        },
+        {
+            "Case": "BraTS20_Training_331",
+            "Mean_Intensity": 29.9460269937276,
+            "Std_Intensity": 69.78851350843235,
+            "Min": 0.0,
+            "Max": 504.0
+        },
+        {
+            "Case": "BraTS20_Training_332",
+            "Mean_Intensity": 67.10103326612904,
+            "Std_Intensity": 139.3318760721771,
+            "Min": 0.0,
+            "Max": 995.0
+        },
+        {
+            "Case": "BraTS20_Training_333",
+            "Mean_Intensity": 64.52464941756273,
+            "Std_Intensity": 146.2395451771988,
+            "Min": 0.0,
+            "Max": 1017.0
+        },
+        {
+            "Case": "BraTS20_Training_334",
+            "Mean_Intensity": 66.8296086469534,
+            "Std_Intensity": 152.54819286669576,
+            "Min": 0.0,
+            "Max": 1176.0
+        },
+        {
+            "Case": "BraTS20_Training_335",
+            "Mean_Intensity": 69.01228393817205,
+            "Std_Intensity": 166.80687017066964,
+            "Min": 0.0,
+            "Max": 1037.0
+        },
+        {
+            "Case": "BraTS20_Training_336",
+            "Mean_Intensity": 128.39056059587813,
+            "Std_Intensity": 305.1075718548598,
+            "Min": 0.0,
+            "Max": 2073.0
+        },
+        {
+            "Case": "BraTS20_Training_337",
+            "Mean_Intensity": 136.83231350806452,
+            "Std_Intensity": 306.8491937113536,
+            "Min": 0.0,
+            "Max": 2396.0
+        },
+        {
+            "Case": "BraTS20_Training_338",
+            "Mean_Intensity": 25.12999406362007,
+            "Std_Intensity": 65.49428843327706,
+            "Min": 0.0,
+            "Max": 509.0
+        },
+        {
+            "Case": "BraTS20_Training_339",
+            "Mean_Intensity": 129.0300400985663,
+            "Std_Intensity": 304.0779097456157,
+            "Min": 0.0,
+            "Max": 1811.0
+        },
+        {
+            "Case": "BraTS20_Training_340",
+            "Mean_Intensity": 166.5073594720472,
+            "Std_Intensity": 374.0043830943841,
+            "Min": 0.0,
+            "Max": 2199.94384765625
+        },
+        {
+            "Case": "BraTS20_Training_341",
+            "Mean_Intensity": 83.29667164281324,
+            "Std_Intensity": 212.88493948687403,
+            "Min": -7.943429470062256,
+            "Max": 1359.520263671875
+        },
+        {
+            "Case": "BraTS20_Training_342",
+            "Mean_Intensity": 147.2770277777778,
+            "Std_Intensity": 336.770375555714,
+            "Min": 0.0,
+            "Max": 2684.0
+        },
+        {
+            "Case": "BraTS20_Training_343",
+            "Mean_Intensity": 1656.2988019713262,
+            "Std_Intensity": 3721.544092732801,
+            "Min": 0.0,
+            "Max": 22435.0
+        },
+        {
+            "Case": "BraTS20_Training_344",
+            "Mean_Intensity": 107.02005779569892,
+            "Std_Intensity": 268.30802827279086,
+            "Min": 0.0,
+            "Max": 1666.0
+        },
+        {
+            "Case": "BraTS20_Training_345",
+            "Mean_Intensity": 52.85792897942524,
+            "Std_Intensity": 130.0332108485052,
+            "Min": 0.0,
+            "Max": 764.8787841796875
+        },
+        {
+            "Case": "BraTS20_Training_346",
+            "Mean_Intensity": 155.36872804659498,
+            "Std_Intensity": 347.00239321369895,
+            "Min": 0.0,
+            "Max": 2108.0
+        },
+        {
+            "Case": "BraTS20_Training_347",
+            "Mean_Intensity": 147.7239073700717,
+            "Std_Intensity": 382.20358647367465,
+            "Min": 0.0,
+            "Max": 2926.0
+        },
+        {
+            "Case": "BraTS20_Training_348",
+            "Mean_Intensity": 140.54986671146955,
+            "Std_Intensity": 315.9647984118567,
+            "Min": 0.0,
+            "Max": 1788.0
+        },
+        {
+            "Case": "BraTS20_Training_349",
+            "Mean_Intensity": 34.61908008512545,
+            "Std_Intensity": 96.70250972512433,
+            "Min": 0.0,
+            "Max": 874.0
+        },
+        {
+            "Case": "BraTS20_Training_350",
+            "Mean_Intensity": 142.2935060483871,
+            "Std_Intensity": 320.71598751943986,
+            "Min": 0.0,
+            "Max": 2348.0
+        },
+        {
+            "Case": "BraTS20_Training_351",
+            "Mean_Intensity": 133.8156729390681,
+            "Std_Intensity": 304.737191780065,
+            "Min": 0.0,
+            "Max": 2820.0
+        },
+        {
+            "Case": "BraTS20_Training_352",
+            "Mean_Intensity": 74.20269130824373,
+            "Std_Intensity": 173.9080152447484,
+            "Min": 0.0,
+            "Max": 1236.0
+        },
+        {
+            "Case": "BraTS20_Training_353",
+            "Mean_Intensity": 168.85211424731182,
+            "Std_Intensity": 372.1121740491616,
+            "Min": 0.0,
+            "Max": 2902.0
+        },
+        {
+            "Case": "BraTS20_Training_354",
+            "Mean_Intensity": 143.63048118307856,
+            "Std_Intensity": 328.57660928367676,
+            "Min": 0.0,
+            "Max": 1896.2913818359375
+        },
+        {
+            "Case": "BraTS20_Training_356",
+            "Mean_Intensity": 137.89411424731182,
+            "Std_Intensity": 319.1641469353515,
+            "Min": 0.0,
+            "Max": 3247.0
+        },
+        {
+            "Case": "BraTS20_Training_357",
+            "Mean_Intensity": 69.25340698888107,
+            "Std_Intensity": 200.30506513665526,
+            "Min": 0.0,
+            "Max": 1595.3712158203125
+        },
+        {
+            "Case": "BraTS20_Training_358",
+            "Mean_Intensity": 119.18409923835125,
+            "Std_Intensity": 300.7777595448422,
+            "Min": 0.0,
+            "Max": 1679.0
+        },
+        {
+            "Case": "BraTS20_Training_359",
+            "Mean_Intensity": 131.2541370967742,
+            "Std_Intensity": 312.10374389039606,
+            "Min": 0.0,
+            "Max": 2864.0
+        },
+        {
+            "Case": "BraTS20_Training_360",
+            "Mean_Intensity": 21.059566263652084,
+            "Std_Intensity": 64.81394009156851,
+            "Min": 0.0,
+            "Max": 457.6447448730469
+        },
+        {
+            "Case": "BraTS20_Training_361",
+            "Mean_Intensity": 153.50215860215053,
+            "Std_Intensity": 329.59588978405964,
+            "Min": 0.0,
+            "Max": 1636.0
+        },
+        {
+            "Case": "BraTS20_Training_362",
+            "Mean_Intensity": 51.472273260553195,
+            "Std_Intensity": 117.08495066246317,
+            "Min": 0.0,
+            "Max": 809.6782836914062
+        },
+        {
+            "Case": "BraTS20_Training_363",
+            "Mean_Intensity": 29.153704077060933,
+            "Std_Intensity": 75.47790104232882,
+            "Min": 0.0,
+            "Max": 697.0
+        },
+        {
+            "Case": "BraTS20_Training_364",
+            "Mean_Intensity": 183.28470833333333,
+            "Std_Intensity": 375.3068670943896,
+            "Min": 0.0,
+            "Max": 1908.0
+        },
+        {
+            "Case": "BraTS20_Training_365",
+            "Mean_Intensity": 119.04232000448029,
+            "Std_Intensity": 297.5180569580168,
+            "Min": 0.0,
+            "Max": 2033.0
+        },
+        {
+            "Case": "BraTS20_Training_366",
+            "Mean_Intensity": 21.99899428763441,
+            "Std_Intensity": 63.03612274051977,
+            "Min": 0.0,
+            "Max": 455.0
+        },
+        {
+            "Case": "BraTS20_Training_367",
+            "Mean_Intensity": 171.28195842852088,
+            "Std_Intensity": 362.28024094476876,
+            "Min": 0.0,
+            "Max": 2452.03466796875
+        },
+        {
+            "Case": "BraTS20_Training_368",
+            "Mean_Intensity": 148.6495226396052,
+            "Std_Intensity": 363.04331430552986,
+            "Min": 0.0,
+            "Max": 2039.1015625
+        },
+        {
+            "Case": "BraTS20_Training_369",
+            "Mean_Intensity": 211.46472927867384,
+            "Std_Intensity": 427.8428456201127,
+            "Min": 0.0,
+            "Max": 2727.0
+        }
+    ],
+    "tumor_stats": [
+        {
+            "Case": "BraTS20_Training_001",
+            "Tumor Voxels": 211979,
+            "Tumor Percentage": 2.3743167562724015
+        },
+        {
+            "Case": "BraTS20_Training_002",
+            "Tumor Voxels": 67008,
+            "Tumor Percentage": 0.7505376344086021
+        },
+        {
+            "Case": "BraTS20_Training_003",
+            "Tumor Voxels": 29807,
+            "Tumor Percentage": 0.3338597670250896
+        },
+        {
+            "Case": "BraTS20_Training_004",
+            "Tumor Voxels": 103496,
+            "Tumor Percentage": 1.1592293906810036
+        },
+        {
+            "Case": "BraTS20_Training_005",
+            "Tumor Voxels": 21963,
+            "Tumor Percentage": 0.2460013440860215
+        },
+        {
+            "Case": "BraTS20_Training_006",
+            "Tumor Voxels": 139230,
+            "Tumor Percentage": 1.559475806451613
+        },
+        {
+            "Case": "BraTS20_Training_007",
+            "Tumor Voxels": 39772,
+            "Tumor Percentage": 0.44547491039426523
+        },
+        {
+            "Case": "BraTS20_Training_008",
+            "Tumor Voxels": 33446,
+            "Tumor Percentage": 0.3746191756272401
+        },
+        {
+            "Case": "BraTS20_Training_009",
+            "Tumor Voxels": 183094,
+            "Tumor Percentage": 2.0507840501792116
+        },
+        {
+            "Case": "BraTS20_Training_010",
+            "Tumor Voxels": 44582,
+            "Tumor Percentage": 0.49935035842293907
+        },
+        {
+            "Case": "BraTS20_Training_011",
+            "Tumor Voxels": 55130,
+            "Tumor Percentage": 0.6174955197132617
+        },
+        {
+            "Case": "BraTS20_Training_012",
+            "Tumor Voxels": 32051,
+            "Tumor Percentage": 0.3589941756272402
+        },
+        {
+            "Case": "BraTS20_Training_013",
+            "Tumor Voxels": 46339,
+            "Tumor Percentage": 0.519030017921147
+        },
+        {
+            "Case": "BraTS20_Training_014",
+            "Tumor Voxels": 80396,
+            "Tumor Percentage": 0.9004928315412186
+        },
+        {
+            "Case": "BraTS20_Training_015",
+            "Tumor Voxels": 125287,
+            "Tumor Percentage": 1.403304211469534
+        },
+        {
+            "Case": "BraTS20_Training_016",
+            "Tumor Voxels": 127189,
+            "Tumor Percentage": 1.4246079749103941
+        },
+        {
+            "Case": "BraTS20_Training_017",
+            "Tumor Voxels": 100758,
+            "Tumor Percentage": 1.1285618279569891
+        },
+        {
+            "Case": "BraTS20_Training_018",
+            "Tumor Voxels": 45118,
+            "Tumor Percentage": 0.5053539426523298
+        },
+        {
+            "Case": "BraTS20_Training_019",
+            "Tumor Voxels": 43797,
+            "Tumor Percentage": 0.4905577956989247
+        },
+        {
+            "Case": "BraTS20_Training_020",
+            "Tumor Voxels": 175675,
+            "Tumor Percentage": 1.9676859318996418
+        },
+        {
+            "Case": "BraTS20_Training_021",
+            "Tumor Voxels": 36858,
+            "Tumor Percentage": 0.4128360215053763
+        },
+        {
+            "Case": "BraTS20_Training_022",
+            "Tumor Voxels": 68118,
+            "Tumor Percentage": 0.7629704301075269
+        },
+        {
+            "Case": "BraTS20_Training_023",
+            "Tumor Voxels": 41124,
+            "Tumor Percentage": 0.4606182795698925
+        },
+        {
+            "Case": "BraTS20_Training_024",
+            "Tumor Voxels": 95627,
+            "Tumor Percentage": 1.0710909498207886
+        },
+        {
+            "Case": "BraTS20_Training_025",
+            "Tumor Voxels": 73437,
+            "Tumor Percentage": 0.8225470430107527
+        },
+        {
+            "Case": "BraTS20_Training_026",
+            "Tumor Voxels": 180618,
+            "Tumor Percentage": 2.023051075268817
+        },
+        {
+            "Case": "BraTS20_Training_027",
+            "Tumor Voxels": 66648,
+            "Tumor Percentage": 0.746505376344086
+        },
+        {
+            "Case": "BraTS20_Training_028",
+            "Tumor Voxels": 20935,
+            "Tumor Percentage": 0.23448700716845877
+        },
+        {
+            "Case": "BraTS20_Training_029",
+            "Tumor Voxels": 62354,
+            "Tumor Percentage": 0.6984094982078853
+        },
+        {
+            "Case": "BraTS20_Training_030",
+            "Tumor Voxels": 99909,
+            "Tumor Percentage": 1.1190524193548388
+        },
+        {
+            "Case": "BraTS20_Training_031",
+            "Tumor Voxels": 87609,
+            "Tumor Percentage": 0.9812836021505376
+        },
+        {
+            "Case": "BraTS20_Training_032",
+            "Tumor Voxels": 26500,
+            "Tumor Percentage": 0.2968189964157706
+        },
+        {
+            "Case": "BraTS20_Training_033",
+            "Tumor Voxels": 122656,
+            "Tumor Percentage": 1.3738351254480288
+        },
+        {
+            "Case": "BraTS20_Training_034",
+            "Tumor Voxels": 91573,
+            "Tumor Percentage": 1.0256832437275984
+        },
+        {
+            "Case": "BraTS20_Training_035",
+            "Tumor Voxels": 78815,
+            "Tumor Percentage": 0.8827844982078854
+        },
+        {
+            "Case": "BraTS20_Training_036",
+            "Tumor Voxels": 14830,
+            "Tumor Percentage": 0.16610663082437274
+        },
+        {
+            "Case": "BraTS20_Training_037",
+            "Tumor Voxels": 189011,
+            "Tumor Percentage": 2.1170586917562724
+        },
+        {
+            "Case": "BraTS20_Training_038",
+            "Tumor Voxels": 100879,
+            "Tumor Percentage": 1.1299171146953404
+        },
+        {
+            "Case": "BraTS20_Training_039",
+            "Tumor Voxels": 51853,
+            "Tumor Percentage": 0.580790770609319
+        },
+        {
+            "Case": "BraTS20_Training_040",
+            "Tumor Voxels": 171454,
+            "Tumor Percentage": 1.92040770609319
+        },
+        {
+            "Case": "BraTS20_Training_041",
+            "Tumor Voxels": 101416,
+            "Tumor Percentage": 1.135931899641577
+        },
+        {
+            "Case": "BraTS20_Training_042",
+            "Tumor Voxels": 75949,
+            "Tumor Percentage": 0.8506832437275985
+        },
+        {
+            "Case": "BraTS20_Training_043",
+            "Tumor Voxels": 37429,
+            "Tumor Percentage": 0.4192316308243727
+        },
+        {
+            "Case": "BraTS20_Training_044",
+            "Tumor Voxels": 19150,
+            "Tumor Percentage": 0.2144937275985663
+        },
+        {
+            "Case": "BraTS20_Training_045",
+            "Tumor Voxels": 97205,
+            "Tumor Percentage": 1.0887656810035844
+        },
+        {
+            "Case": "BraTS20_Training_046",
+            "Tumor Voxels": 36342,
+            "Tumor Percentage": 0.4070564516129032
+        },
+        {
+            "Case": "BraTS20_Training_047",
+            "Tumor Voxels": 132682,
+            "Tumor Percentage": 1.4861335125448027
+        },
+        {
+            "Case": "BraTS20_Training_048",
+            "Tumor Voxels": 29239,
+            "Tumor Percentage": 0.3274977598566308
+        },
+        {
+            "Case": "BraTS20_Training_049",
+            "Tumor Voxels": 83418,
+            "Tumor Percentage": 0.9343413978494624
+        },
+        {
+            "Case": "BraTS20_Training_050",
+            "Tumor Voxels": 82780,
+            "Tumor Percentage": 0.9271953405017921
+        },
+        {
+            "Case": "BraTS20_Training_051",
+            "Tumor Voxels": 121570,
+            "Tumor Percentage": 1.361671146953405
+        },
+        {
+            "Case": "BraTS20_Training_052",
+            "Tumor Voxels": 45951,
+            "Tumor Percentage": 0.5146841397849463
+        },
+        {
+            "Case": "BraTS20_Training_053",
+            "Tumor Voxels": 149897,
+            "Tumor Percentage": 1.6789538530465948
+        },
+        {
+            "Case": "BraTS20_Training_054",
+            "Tumor Voxels": 80574,
+            "Tumor Percentage": 0.9024865591397849
+        },
+        {
+            "Case": "BraTS20_Training_055",
+            "Tumor Voxels": 118394,
+            "Tumor Percentage": 1.3260976702508962
+        },
+        {
+            "Case": "BraTS20_Training_056",
+            "Tumor Voxels": 55364,
+            "Tumor Percentage": 0.6201164874551971
+        },
+        {
+            "Case": "BraTS20_Training_057",
+            "Tumor Voxels": 91132,
+            "Tumor Percentage": 1.0207437275985662
+        },
+        {
+            "Case": "BraTS20_Training_058",
+            "Tumor Voxels": 91646,
+            "Tumor Percentage": 1.0265008960573478
+        },
+        {
+            "Case": "BraTS20_Training_059",
+            "Tumor Voxels": 25918,
+            "Tumor Percentage": 0.29030017921146956
+        },
+        {
+            "Case": "BraTS20_Training_060",
+            "Tumor Voxels": 87324,
+            "Tumor Percentage": 0.9780913978494624
+        },
+        {
+            "Case": "BraTS20_Training_061",
+            "Tumor Voxels": 20876,
+            "Tumor Percentage": 0.233826164874552
+        },
+        {
+            "Case": "BraTS20_Training_062",
+            "Tumor Voxels": 142132,
+            "Tumor Percentage": 1.5919802867383512
+        },
+        {
+            "Case": "BraTS20_Training_063",
+            "Tumor Voxels": 13459,
+            "Tumor Percentage": 0.15075044802867382
+        },
+        {
+            "Case": "BraTS20_Training_064",
+            "Tumor Voxels": 95815,
+            "Tumor Percentage": 1.0731966845878136
+        },
+        {
+            "Case": "BraTS20_Training_065",
+            "Tumor Voxels": 24955,
+            "Tumor Percentage": 0.27951388888888884
+        },
+        {
+            "Case": "BraTS20_Training_066",
+            "Tumor Voxels": 59246,
+            "Tumor Percentage": 0.6635976702508961
+        },
+        {
+            "Case": "BraTS20_Training_067",
+            "Tumor Voxels": 130505,
+            "Tumor Percentage": 1.4617495519713262
+        },
+        {
+            "Case": "BraTS20_Training_068",
+            "Tumor Voxels": 63159,
+            "Tumor Percentage": 0.7074260752688172
+        },
+        {
+            "Case": "BraTS20_Training_069",
+            "Tumor Voxels": 160010,
+            "Tumor Percentage": 1.7922267025089607
+        },
+        {
+            "Case": "BraTS20_Training_070",
+            "Tumor Voxels": 57830,
+            "Tumor Percentage": 0.6477374551971327
+        },
+        {
+            "Case": "BraTS20_Training_071",
+            "Tumor Voxels": 154279,
+            "Tumor Percentage": 1.728035394265233
+        },
+        {
+            "Case": "BraTS20_Training_072",
+            "Tumor Voxels": 89189,
+            "Tumor Percentage": 0.998980734767025
+        },
+        {
+            "Case": "BraTS20_Training_073",
+            "Tumor Voxels": 44519,
+            "Tumor Percentage": 0.4986447132616488
+        },
+        {
+            "Case": "BraTS20_Training_074",
+            "Tumor Voxels": 76789,
+            "Tumor Percentage": 0.8600918458781363
+        },
+        {
+            "Case": "BraTS20_Training_075",
+            "Tumor Voxels": 185137,
+            "Tumor Percentage": 2.0736671146953407
+        },
+        {
+            "Case": "BraTS20_Training_076",
+            "Tumor Voxels": 42204,
+            "Tumor Percentage": 0.47271505376344086
+        },
+        {
+            "Case": "BraTS20_Training_077",
+            "Tumor Voxels": 50183,
+            "Tumor Percentage": 0.5620855734767025
+        },
+        {
+            "Case": "BraTS20_Training_078",
+            "Tumor Voxels": 39411,
+            "Tumor Percentage": 0.44143145161290326
+        },
+        {
+            "Case": "BraTS20_Training_079",
+            "Tumor Voxels": 7285,
+            "Tumor Percentage": 0.08159722222222222
+        },
+        {
+            "Case": "BraTS20_Training_080",
+            "Tumor Voxels": 43464,
+            "Tumor Percentage": 0.4868279569892473
+        },
+        {
+            "Case": "BraTS20_Training_081",
+            "Tumor Voxels": 31532,
+            "Tumor Percentage": 0.3531810035842294
+        },
+        {
+            "Case": "BraTS20_Training_082",
+            "Tumor Voxels": 10101,
+            "Tumor Percentage": 0.11313844086021506
+        },
+        {
+            "Case": "BraTS20_Training_083",
+            "Tumor Voxels": 73658,
+            "Tumor Percentage": 0.8250224014336918
+        },
+        {
+            "Case": "BraTS20_Training_084",
+            "Tumor Voxels": 57075,
+            "Tumor Percentage": 0.6392809139784946
+        },
+        {
+            "Case": "BraTS20_Training_085",
+            "Tumor Voxels": 36221,
+            "Tumor Percentage": 0.405701164874552
+        },
+        {
+            "Case": "BraTS20_Training_086",
+            "Tumor Voxels": 20752,
+            "Tumor Percentage": 0.23243727598566305
+        },
+        {
+            "Case": "BraTS20_Training_087",
+            "Tumor Voxels": 26806,
+            "Tumor Percentage": 0.30024641577060934
+        },
+        {
+            "Case": "BraTS20_Training_088",
+            "Tumor Voxels": 30654,
+            "Tumor Percentage": 0.34334677419354837
+        },
+        {
+            "Case": "BraTS20_Training_089",
+            "Tumor Voxels": 130343,
+            "Tumor Percentage": 1.459935035842294
+        },
+        {
+            "Case": "BraTS20_Training_090",
+            "Tumor Voxels": 32059,
+            "Tumor Percentage": 0.3590837813620072
+        },
+        {
+            "Case": "BraTS20_Training_091",
+            "Tumor Voxels": 149594,
+            "Tumor Percentage": 1.675560035842294
+        },
+        {
+            "Case": "BraTS20_Training_092",
+            "Tumor Voxels": 58458,
+            "Tumor Percentage": 0.6547715053763441
+        },
+        {
+            "Case": "BraTS20_Training_093",
+            "Tumor Voxels": 98690,
+            "Tumor Percentage": 1.1053987455197134
+        },
+        {
+            "Case": "BraTS20_Training_094",
+            "Tumor Voxels": 21929,
+            "Tumor Percentage": 0.24562051971326165
+        },
+        {
+            "Case": "BraTS20_Training_095",
+            "Tumor Voxels": 103768,
+            "Tumor Percentage": 1.1622759856630824
+        },
+        {
+            "Case": "BraTS20_Training_096",
+            "Tumor Voxels": 65993,
+            "Tumor Percentage": 0.7391689068100359
+        },
+        {
+            "Case": "BraTS20_Training_097",
+            "Tumor Voxels": 79531,
+            "Tumor Percentage": 0.8908042114695339
+        },
+        {
+            "Case": "BraTS20_Training_098",
+            "Tumor Voxels": 144026,
+            "Tumor Percentage": 1.6131944444444446
+        },
+        {
+            "Case": "BraTS20_Training_099",
+            "Tumor Voxels": 7513,
+            "Tumor Percentage": 0.08415098566308243
+        },
+        {
+            "Case": "BraTS20_Training_100",
+            "Tumor Voxels": 135252,
+            "Tumor Percentage": 1.5149193548387097
+        },
+        {
+            "Case": "BraTS20_Training_101",
+            "Tumor Voxels": 71751,
+            "Tumor Percentage": 0.8036626344086022
+        },
+        {
+            "Case": "BraTS20_Training_102",
+            "Tumor Voxels": 24143,
+            "Tumor Percentage": 0.27041890681003583
+        },
+        {
+            "Case": "BraTS20_Training_103",
+            "Tumor Voxels": 58208,
+            "Tumor Percentage": 0.6519713261648745
+        },
+        {
+            "Case": "BraTS20_Training_104",
+            "Tumor Voxels": 169685,
+            "Tumor Percentage": 1.9005936379928317
+        },
+        {
+            "Case": "BraTS20_Training_105",
+            "Tumor Voxels": 24992,
+            "Tumor Percentage": 0.2799283154121864
+        },
+        {
+            "Case": "BraTS20_Training_106",
+            "Tumor Voxels": 108359,
+            "Tumor Percentage": 1.213698476702509
+        },
+        {
+            "Case": "BraTS20_Training_107",
+            "Tumor Voxels": 34311,
+            "Tumor Percentage": 0.3843077956989247
+        },
+        {
+            "Case": "BraTS20_Training_108",
+            "Tumor Voxels": 17892,
+            "Tumor Percentage": 0.20040322580645162
+        },
+        {
+            "Case": "BraTS20_Training_109",
+            "Tumor Voxels": 100724,
+            "Tumor Percentage": 1.1281810035842295
+        },
+        {
+            "Case": "BraTS20_Training_110",
+            "Tumor Voxels": 15762,
+            "Tumor Percentage": 0.17654569892473118
+        },
+        {
+            "Case": "BraTS20_Training_111",
+            "Tumor Voxels": 43342,
+            "Tumor Percentage": 0.48546146953405017
+        },
+        {
+            "Case": "BraTS20_Training_112",
+            "Tumor Voxels": 170359,
+            "Tumor Percentage": 1.9081429211469534
+        },
+        {
+            "Case": "BraTS20_Training_113",
+            "Tumor Voxels": 125680,
+            "Tumor Percentage": 1.407706093189964
+        },
+        {
+            "Case": "BraTS20_Training_114",
+            "Tumor Voxels": 103304,
+            "Tumor Percentage": 1.157078853046595
+        },
+        {
+            "Case": "BraTS20_Training_115",
+            "Tumor Voxels": 90608,
+            "Tumor Percentage": 1.014874551971326
+        },
+        {
+            "Case": "BraTS20_Training_116",
+            "Tumor Voxels": 87535,
+            "Tumor Percentage": 0.9804547491039426
+        },
+        {
+            "Case": "BraTS20_Training_117",
+            "Tumor Voxels": 78134,
+            "Tumor Percentage": 0.8751568100358422
+        },
+        {
+            "Case": "BraTS20_Training_118",
+            "Tumor Voxels": 52485,
+            "Tumor Percentage": 0.587869623655914
+        },
+        {
+            "Case": "BraTS20_Training_119",
+            "Tumor Voxels": 32190,
+            "Tumor Percentage": 0.3605510752688172
+        },
+        {
+            "Case": "BraTS20_Training_120",
+            "Tumor Voxels": 123632,
+            "Tumor Percentage": 1.3847670250896056
+        },
+        {
+            "Case": "BraTS20_Training_121",
+            "Tumor Voxels": 145124,
+            "Tumor Percentage": 1.6254928315412187
+        },
+        {
+            "Case": "BraTS20_Training_122",
+            "Tumor Voxels": 16585,
+            "Tumor Percentage": 0.1857638888888889
+        },
+        {
+            "Case": "BraTS20_Training_123",
+            "Tumor Voxels": 137737,
+            "Tumor Percentage": 1.5427531362007167
+        },
+        {
+            "Case": "BraTS20_Training_124",
+            "Tumor Voxels": 175363,
+            "Tumor Percentage": 1.9641913082437277
+        },
+        {
+            "Case": "BraTS20_Training_125",
+            "Tumor Voxels": 151285,
+            "Tumor Percentage": 1.6945004480286736
+        },
+        {
+            "Case": "BraTS20_Training_126",
+            "Tumor Voxels": 38000,
+            "Tumor Percentage": 0.4256272401433692
+        },
+        {
+            "Case": "BraTS20_Training_127",
+            "Tumor Voxels": 43568,
+            "Tumor Percentage": 0.48799283154121864
+        },
+        {
+            "Case": "BraTS20_Training_128",
+            "Tumor Voxels": 34459,
+            "Tumor Percentage": 0.3859655017921147
+        },
+        {
+            "Case": "BraTS20_Training_129",
+            "Tumor Voxels": 59335,
+            "Tumor Percentage": 0.6645945340501792
+        },
+        {
+            "Case": "BraTS20_Training_130",
+            "Tumor Voxels": 111724,
+            "Tumor Percentage": 1.2513888888888889
+        },
+        {
+            "Case": "BraTS20_Training_131",
+            "Tumor Voxels": 63061,
+            "Tumor Percentage": 0.7063284050179212
+        },
+        {
+            "Case": "BraTS20_Training_132",
+            "Tumor Voxels": 173928,
+            "Tumor Percentage": 1.9481182795698924
+        },
+        {
+            "Case": "BraTS20_Training_133",
+            "Tumor Voxels": 120674,
+            "Tumor Percentage": 1.3516353046594982
+        },
+        {
+            "Case": "BraTS20_Training_134",
+            "Tumor Voxels": 80682,
+            "Tumor Percentage": 0.9036962365591398
+        },
+        {
+            "Case": "BraTS20_Training_135",
+            "Tumor Voxels": 217380,
+            "Tumor Percentage": 2.4348118279569895
+        },
+        {
+            "Case": "BraTS20_Training_136",
+            "Tumor Voxels": 61085,
+            "Tumor Percentage": 0.6841957885304659
+        },
+        {
+            "Case": "BraTS20_Training_137",
+            "Tumor Voxels": 187570,
+            "Tumor Percentage": 2.1009184587813623
+        },
+        {
+            "Case": "BraTS20_Training_138",
+            "Tumor Voxels": 210327,
+            "Tumor Percentage": 2.355813172043011
+        },
+        {
+            "Case": "BraTS20_Training_139",
+            "Tumor Voxels": 20487,
+            "Tumor Percentage": 0.2294690860215054
+        },
+        {
+            "Case": "BraTS20_Training_140",
+            "Tumor Voxels": 137301,
+            "Tumor Percentage": 1.537869623655914
+        },
+        {
+            "Case": "BraTS20_Training_141",
+            "Tumor Voxels": 21615,
+            "Tumor Percentage": 0.2421034946236559
+        },
+        {
+            "Case": "BraTS20_Training_142",
+            "Tumor Voxels": 12969,
+            "Tumor Percentage": 0.14526209677419355
+        },
+        {
+            "Case": "BraTS20_Training_143",
+            "Tumor Voxels": 147786,
+            "Tumor Percentage": 1.655309139784946
+        },
+        {
+            "Case": "BraTS20_Training_144",
+            "Tumor Voxels": 198692,
+            "Tumor Percentage": 2.2254928315412186
+        },
+        {
+            "Case": "BraTS20_Training_145",
+            "Tumor Voxels": 82735,
+            "Tumor Percentage": 0.9266913082437276
+        },
+        {
+            "Case": "BraTS20_Training_146",
+            "Tumor Voxels": 100886,
+            "Tumor Percentage": 1.1299955197132616
+        },
+        {
+            "Case": "BraTS20_Training_147",
+            "Tumor Voxels": 139257,
+            "Tumor Percentage": 1.5597782258064516
+        },
+        {
+            "Case": "BraTS20_Training_148",
+            "Tumor Voxels": 149347,
+            "Tumor Percentage": 1.672793458781362
+        },
+        {
+            "Case": "BraTS20_Training_149",
+            "Tumor Voxels": 256875,
+            "Tumor Percentage": 2.877184139784946
+        },
+        {
+            "Case": "BraTS20_Training_150",
+            "Tumor Voxels": 149302,
+            "Tumor Percentage": 1.6722894265232977
+        },
+        {
+            "Case": "BraTS20_Training_151",
+            "Tumor Voxels": 149466,
+            "Tumor Percentage": 1.6741263440860217
+        },
+        {
+            "Case": "BraTS20_Training_152",
+            "Tumor Voxels": 187315,
+            "Tumor Percentage": 2.098062275985663
+        },
+        {
+            "Case": "BraTS20_Training_153",
+            "Tumor Voxels": 127217,
+            "Tumor Percentage": 1.4249215949820788
+        },
+        {
+            "Case": "BraTS20_Training_154",
+            "Tumor Voxels": 94086,
+            "Tumor Percentage": 1.0538306451612904
+        },
+        {
+            "Case": "BraTS20_Training_155",
+            "Tumor Voxels": 144602,
+            "Tumor Percentage": 1.6196460573476703
+        },
+        {
+            "Case": "BraTS20_Training_156",
+            "Tumor Voxels": 121150,
+            "Tumor Percentage": 1.356966845878136
+        },
+        {
+            "Case": "BraTS20_Training_157",
+            "Tumor Voxels": 92575,
+            "Tumor Percentage": 1.0369063620071683
+        },
+        {
+            "Case": "BraTS20_Training_158",
+            "Tumor Voxels": 38314,
+            "Tumor Percentage": 0.4291442652329749
+        },
+        {
+            "Case": "BraTS20_Training_159",
+            "Tumor Voxels": 24434,
+            "Tumor Percentage": 0.27367831541218635
+        },
+        {
+            "Case": "BraTS20_Training_160",
+            "Tumor Voxels": 127812,
+            "Tumor Percentage": 1.4315860215053762
+        },
+        {
+            "Case": "BraTS20_Training_161",
+            "Tumor Voxels": 53787,
+            "Tumor Percentage": 0.6024529569892473
+        },
+        {
+            "Case": "BraTS20_Training_162",
+            "Tumor Voxels": 107328,
+            "Tumor Percentage": 1.2021505376344086
+        },
+        {
+            "Case": "BraTS20_Training_163",
+            "Tumor Voxels": 154508,
+            "Tumor Percentage": 1.730600358422939
+        },
+        {
+            "Case": "BraTS20_Training_164",
+            "Tumor Voxels": 125370,
+            "Tumor Percentage": 1.404233870967742
+        },
+        {
+            "Case": "BraTS20_Training_165",
+            "Tumor Voxels": 143759,
+            "Tumor Percentage": 1.6102038530465952
+        },
+        {
+            "Case": "BraTS20_Training_166",
+            "Tumor Voxels": 222999,
+            "Tumor Percentage": 2.4977486559139783
+        },
+        {
+            "Case": "BraTS20_Training_167",
+            "Tumor Voxels": 80769,
+            "Tumor Percentage": 0.9046706989247313
+        },
+        {
+            "Case": "BraTS20_Training_168",
+            "Tumor Voxels": 163378,
+            "Tumor Percentage": 1.8299507168458782
+        },
+        {
+            "Case": "BraTS20_Training_169",
+            "Tumor Voxels": 55781,
+            "Tumor Percentage": 0.6247871863799284
+        },
+        {
+            "Case": "BraTS20_Training_170",
+            "Tumor Voxels": 99859,
+            "Tumor Percentage": 1.1184923835125447
+        },
+        {
+            "Case": "BraTS20_Training_171",
+            "Tumor Voxels": 146494,
+            "Tumor Percentage": 1.6408378136200714
+        },
+        {
+            "Case": "BraTS20_Training_172",
+            "Tumor Voxels": 37828,
+            "Tumor Percentage": 0.4237007168458782
+        },
+        {
+            "Case": "BraTS20_Training_173",
+            "Tumor Voxels": 134271,
+            "Tumor Percentage": 1.5039314516129032
+        },
+        {
+            "Case": "BraTS20_Training_174",
+            "Tumor Voxels": 95391,
+            "Tumor Percentage": 1.0684475806451612
+        },
+        {
+            "Case": "BraTS20_Training_175",
+            "Tumor Voxels": 186689,
+            "Tumor Percentage": 2.0910506272401435
+        },
+        {
+            "Case": "BraTS20_Training_176",
+            "Tumor Voxels": 105852,
+            "Tumor Percentage": 1.1856182795698924
+        },
+        {
+            "Case": "BraTS20_Training_177",
+            "Tumor Voxels": 12952,
+            "Tumor Percentage": 0.1450716845878136
+        },
+        {
+            "Case": "BraTS20_Training_178",
+            "Tumor Voxels": 92661,
+            "Tumor Percentage": 1.037869623655914
+        },
+        {
+            "Case": "BraTS20_Training_179",
+            "Tumor Voxels": 66802,
+            "Tumor Percentage": 0.7482302867383512
+        },
+        {
+            "Case": "BraTS20_Training_180",
+            "Tumor Voxels": 162623,
+            "Tumor Percentage": 1.82149417562724
+        },
+        {
+            "Case": "BraTS20_Training_181",
+            "Tumor Voxels": 66816,
+            "Tumor Percentage": 0.7483870967741936
+        },
+        {
+            "Case": "BraTS20_Training_182",
+            "Tumor Voxels": 42233,
+            "Tumor Percentage": 0.47303987455197133
+        },
+        {
+            "Case": "BraTS20_Training_183",
+            "Tumor Voxels": 186261,
+            "Tumor Percentage": 2.0862567204301072
+        },
+        {
+            "Case": "BraTS20_Training_184",
+            "Tumor Voxels": 122929,
+            "Tumor Percentage": 1.3768929211469534
+        },
+        {
+            "Case": "BraTS20_Training_185",
+            "Tumor Voxels": 88649,
+            "Tumor Percentage": 0.992932347670251
+        },
+        {
+            "Case": "BraTS20_Training_186",
+            "Tumor Voxels": 129841,
+            "Tumor Percentage": 1.454312275985663
+        },
+        {
+            "Case": "BraTS20_Training_187",
+            "Tumor Voxels": 91560,
+            "Tumor Percentage": 1.0255376344086022
+        },
+        {
+            "Case": "BraTS20_Training_188",
+            "Tumor Voxels": 67704,
+            "Tumor Percentage": 0.7583333333333333
+        },
+        {
+            "Case": "BraTS20_Training_189",
+            "Tumor Voxels": 97135,
+            "Tumor Percentage": 1.0879816308243728
+        },
+        {
+            "Case": "BraTS20_Training_190",
+            "Tumor Voxels": 45281,
+            "Tumor Percentage": 0.5071796594982079
+        },
+        {
+            "Case": "BraTS20_Training_191",
+            "Tumor Voxels": 150805,
+            "Tumor Percentage": 1.6891241039426523
+        },
+        {
+            "Case": "BraTS20_Training_192",
+            "Tumor Voxels": 110151,
+            "Tumor Percentage": 1.2337701612903227
+        },
+        {
+            "Case": "BraTS20_Training_193",
+            "Tumor Voxels": 130288,
+            "Tumor Percentage": 1.4593189964157707
+        },
+        {
+            "Case": "BraTS20_Training_194",
+            "Tumor Voxels": 99624,
+            "Tumor Percentage": 1.1158602150537635
+        },
+        {
+            "Case": "BraTS20_Training_195",
+            "Tumor Voxels": 50735,
+            "Tumor Percentage": 0.5682683691756272
+        },
+        {
+            "Case": "BraTS20_Training_196",
+            "Tumor Voxels": 168187,
+            "Tumor Percentage": 1.883814964157706
+        },
+        {
+            "Case": "BraTS20_Training_197",
+            "Tumor Voxels": 131589,
+            "Tumor Percentage": 1.473891129032258
+        },
+        {
+            "Case": "BraTS20_Training_198",
+            "Tumor Voxels": 107194,
+            "Tumor Percentage": 1.2006496415770609
+        },
+        {
+            "Case": "BraTS20_Training_199",
+            "Tumor Voxels": 81847,
+            "Tumor Percentage": 0.9167450716845879
+        },
+        {
+            "Case": "BraTS20_Training_200",
+            "Tumor Voxels": 44798,
+            "Tumor Percentage": 0.5017697132616488
+        },
+        {
+            "Case": "BraTS20_Training_201",
+            "Tumor Voxels": 175302,
+            "Tumor Percentage": 1.9635080645161291
+        },
+        {
+            "Case": "BraTS20_Training_202",
+            "Tumor Voxels": 97212,
+            "Tumor Percentage": 1.0888440860215054
+        },
+        {
+            "Case": "BraTS20_Training_203",
+            "Tumor Voxels": 89516,
+            "Tumor Percentage": 1.0026433691756271
+        },
+        {
+            "Case": "BraTS20_Training_204",
+            "Tumor Voxels": 19075,
+            "Tumor Percentage": 0.21365367383512543
+        },
+        {
+            "Case": "BraTS20_Training_205",
+            "Tumor Voxels": 31109,
+            "Tumor Percentage": 0.3484431003584229
+        },
+        {
+            "Case": "BraTS20_Training_206",
+            "Tumor Voxels": 23456,
+            "Tumor Percentage": 0.26272401433691756
+        },
+        {
+            "Case": "BraTS20_Training_207",
+            "Tumor Voxels": 59206,
+            "Tumor Percentage": 0.6631496415770609
+        },
+        {
+            "Case": "BraTS20_Training_208",
+            "Tumor Voxels": 166140,
+            "Tumor Percentage": 1.8608870967741935
+        },
+        {
+            "Case": "BraTS20_Training_209",
+            "Tumor Voxels": 64347,
+            "Tumor Percentage": 0.7207325268817204
+        },
+        {
+            "Case": "BraTS20_Training_210",
+            "Tumor Voxels": 175646,
+            "Tumor Percentage": 1.9673611111111111
+        },
+        {
+            "Case": "BraTS20_Training_211",
+            "Tumor Voxels": 80218,
+            "Tumor Percentage": 0.8984991039426524
+        },
+        {
+            "Case": "BraTS20_Training_212",
+            "Tumor Voxels": 184720,
+            "Tumor Percentage": 2.0689964157706093
+        },
+        {
+            "Case": "BraTS20_Training_213",
+            "Tumor Voxels": 57168,
+            "Tumor Percentage": 0.6403225806451613
+        },
+        {
+            "Case": "BraTS20_Training_214",
+            "Tumor Voxels": 110210,
+            "Tumor Percentage": 1.2344310035842294
+        },
+        {
+            "Case": "BraTS20_Training_215",
+            "Tumor Voxels": 66672,
+            "Tumor Percentage": 0.7467741935483871
+        },
+        {
+            "Case": "BraTS20_Training_216",
+            "Tumor Voxels": 60356,
+            "Tumor Percentage": 0.6760304659498207
+        },
+        {
+            "Case": "BraTS20_Training_217",
+            "Tumor Voxels": 21984,
+            "Tumor Percentage": 0.24623655913978493
+        },
+        {
+            "Case": "BraTS20_Training_218",
+            "Tumor Voxels": 111312,
+            "Tumor Percentage": 1.246774193548387
+        },
+        {
+            "Case": "BraTS20_Training_219",
+            "Tumor Voxels": 77278,
+            "Tumor Percentage": 0.8655689964157707
+        },
+        {
+            "Case": "BraTS20_Training_220",
+            "Tumor Voxels": 117937,
+            "Tumor Percentage": 1.3209789426523297
+        },
+        {
+            "Case": "BraTS20_Training_221",
+            "Tumor Voxels": 161557,
+            "Tumor Percentage": 1.809554211469534
+        },
+        {
+            "Case": "BraTS20_Training_222",
+            "Tumor Voxels": 30490,
+            "Tumor Percentage": 0.3415098566308244
+        },
+        {
+            "Case": "BraTS20_Training_223",
+            "Tumor Voxels": 159632,
+            "Tumor Percentage": 1.7879928315412186
+        },
+        {
+            "Case": "BraTS20_Training_224",
+            "Tumor Voxels": 148030,
+            "Tumor Percentage": 1.6580421146953406
+        },
+        {
+            "Case": "BraTS20_Training_225",
+            "Tumor Voxels": 206134,
+            "Tumor Percentage": 2.3088485663082436
+        },
+        {
+            "Case": "BraTS20_Training_226",
+            "Tumor Voxels": 69628,
+            "Tumor Percentage": 0.7798835125448028
+        },
+        {
+            "Case": "BraTS20_Training_227",
+            "Tumor Voxels": 52898,
+            "Tumor Percentage": 0.5924955197132616
+        },
+        {
+            "Case": "BraTS20_Training_228",
+            "Tumor Voxels": 73827,
+            "Tumor Percentage": 0.8269153225806452
+        },
+        {
+            "Case": "BraTS20_Training_229",
+            "Tumor Voxels": 74986,
+            "Tumor Percentage": 0.839896953405018
+        },
+        {
+            "Case": "BraTS20_Training_230",
+            "Tumor Voxels": 90740,
+            "Tumor Percentage": 1.0163530465949822
+        },
+        {
+            "Case": "BraTS20_Training_231",
+            "Tumor Voxels": 132171,
+            "Tumor Percentage": 1.4804099462365592
+        },
+        {
+            "Case": "BraTS20_Training_232",
+            "Tumor Voxels": 91751,
+            "Tumor Percentage": 1.0276769713261649
+        },
+        {
+            "Case": "BraTS20_Training_233",
+            "Tumor Voxels": 16748,
+            "Tumor Percentage": 0.18758960573476702
+        },
+        {
+            "Case": "BraTS20_Training_234",
+            "Tumor Voxels": 157749,
+            "Tumor Percentage": 1.7669018817204303
+        },
+        {
+            "Case": "BraTS20_Training_235",
+            "Tumor Voxels": 200621,
+            "Tumor Percentage": 2.247099014336918
+        },
+        {
+            "Case": "BraTS20_Training_236",
+            "Tumor Voxels": 169918,
+            "Tumor Percentage": 1.9032034050179212
+        },
+        {
+            "Case": "BraTS20_Training_237",
+            "Tumor Voxels": 162397,
+            "Tumor Percentage": 1.8189628136200717
+        },
+        {
+            "Case": "BraTS20_Training_238",
+            "Tumor Voxels": 176056,
+            "Tumor Percentage": 1.9719534050179213
+        },
+        {
+            "Case": "BraTS20_Training_239",
+            "Tumor Voxels": 75085,
+            "Tumor Percentage": 0.8410058243727598
+        },
+        {
+            "Case": "BraTS20_Training_240",
+            "Tumor Voxels": 168746,
+            "Tumor Percentage": 1.890076164874552
+        },
+        {
+            "Case": "BraTS20_Training_241",
+            "Tumor Voxels": 227126,
+            "Tumor Percentage": 2.543974014336918
+        },
+        {
+            "Case": "BraTS20_Training_242",
+            "Tumor Voxels": 54958,
+            "Tumor Percentage": 0.6155689964157706
+        },
+        {
+            "Case": "BraTS20_Training_243",
+            "Tumor Voxels": 154118,
+            "Tumor Percentage": 1.7262320788530465
+        },
+        {
+            "Case": "BraTS20_Training_244",
+            "Tumor Voxels": 149604,
+            "Tumor Percentage": 1.6756720430107526
+        },
+        {
+            "Case": "BraTS20_Training_245",
+            "Tumor Voxels": 156762,
+            "Tumor Percentage": 1.7558467741935484
+        },
+        {
+            "Case": "BraTS20_Training_246",
+            "Tumor Voxels": 70781,
+            "Tumor Percentage": 0.7927979390681004
+        },
+        {
+            "Case": "BraTS20_Training_247",
+            "Tumor Voxels": 138051,
+            "Tumor Percentage": 1.5462701612903225
+        },
+        {
+            "Case": "BraTS20_Training_248",
+            "Tumor Voxels": 87193,
+            "Tumor Percentage": 0.9766241039426523
+        },
+        {
+            "Case": "BraTS20_Training_249",
+            "Tumor Voxels": 58817,
+            "Tumor Percentage": 0.6587925627240143
+        },
+        {
+            "Case": "BraTS20_Training_250",
+            "Tumor Voxels": 73791,
+            "Tumor Percentage": 0.8265120967741936
+        },
+        {
+            "Case": "BraTS20_Training_251",
+            "Tumor Voxels": 82921,
+            "Tumor Percentage": 0.928774641577061
+        },
+        {
+            "Case": "BraTS20_Training_252",
+            "Tumor Voxels": 204242,
+            "Tumor Percentage": 2.287656810035842
+        },
+        {
+            "Case": "BraTS20_Training_253",
+            "Tumor Voxels": 43881,
+            "Tumor Percentage": 0.4914986559139785
+        },
+        {
+            "Case": "BraTS20_Training_254",
+            "Tumor Voxels": 156606,
+            "Tumor Percentage": 1.7540994623655912
+        },
+        {
+            "Case": "BraTS20_Training_255",
+            "Tumor Voxels": 163612,
+            "Tumor Percentage": 1.8325716845878137
+        },
+        {
+            "Case": "BraTS20_Training_256",
+            "Tumor Voxels": 172673,
+            "Tumor Percentage": 1.9340613799283153
+        },
+        {
+            "Case": "BraTS20_Training_257",
+            "Tumor Voxels": 82023,
+            "Tumor Percentage": 0.9187163978494624
+        },
+        {
+            "Case": "BraTS20_Training_258",
+            "Tumor Voxels": 122734,
+            "Tumor Percentage": 1.3747087813620071
+        },
+        {
+            "Case": "BraTS20_Training_259",
+            "Tumor Voxels": 119314,
+            "Tumor Percentage": 1.336402329749104
+        },
+        {
+            "Case": "BraTS20_Training_260",
+            "Tumor Voxels": 49924,
+            "Tumor Percentage": 0.5591845878136201
+        },
+        {
+            "Case": "BraTS20_Training_261",
+            "Tumor Voxels": 248267,
+            "Tumor Percentage": 2.7807683691756275
+        },
+        {
+            "Case": "BraTS20_Training_262",
+            "Tumor Voxels": 64107,
+            "Tumor Percentage": 0.7180443548387097
+        },
+        {
+            "Case": "BraTS20_Training_263",
+            "Tumor Voxels": 30441,
+            "Tumor Percentage": 0.3409610215053763
+        },
+        {
+            "Case": "BraTS20_Training_264",
+            "Tumor Voxels": 25624,
+            "Tumor Percentage": 0.2870071684587814
+        },
+        {
+            "Case": "BraTS20_Training_265",
+            "Tumor Voxels": 61746,
+            "Tumor Percentage": 0.6915994623655914
+        },
+        {
+            "Case": "BraTS20_Training_266",
+            "Tumor Voxels": 53274,
+            "Tumor Percentage": 0.5967069892473118
+        },
+        {
+            "Case": "BraTS20_Training_267",
+            "Tumor Voxels": 79625,
+            "Tumor Percentage": 0.8918570788530465
+        },
+        {
+            "Case": "BraTS20_Training_268",
+            "Tumor Voxels": 18890,
+            "Tumor Percentage": 0.211581541218638
+        },
+        {
+            "Case": "BraTS20_Training_269",
+            "Tumor Voxels": 35439,
+            "Tumor Percentage": 0.39694220430107524
+        },
+        {
+            "Case": "BraTS20_Training_270",
+            "Tumor Voxels": 148380,
+            "Tumor Percentage": 1.661962365591398
+        },
+        {
+            "Case": "BraTS20_Training_271",
+            "Tumor Voxels": 51173,
+            "Tumor Percentage": 0.5731742831541219
+        },
+        {
+            "Case": "BraTS20_Training_272",
+            "Tumor Voxels": 195433,
+            "Tumor Percentage": 2.188989695340502
+        },
+        {
+            "Case": "BraTS20_Training_273",
+            "Tumor Voxels": 230882,
+            "Tumor Percentage": 2.5860439068100356
+        },
+        {
+            "Case": "BraTS20_Training_274",
+            "Tumor Voxels": 190251,
+            "Tumor Percentage": 2.130947580645161
+        },
+        {
+            "Case": "BraTS20_Training_275",
+            "Tumor Voxels": 34700,
+            "Tumor Percentage": 0.3886648745519713
+        },
+        {
+            "Case": "BraTS20_Training_276",
+            "Tumor Voxels": 56512,
+            "Tumor Percentage": 0.6329749103942652
+        },
+        {
+            "Case": "BraTS20_Training_277",
+            "Tumor Voxels": 30073,
+            "Tumor Percentage": 0.3368391577060932
+        },
+        {
+            "Case": "BraTS20_Training_278",
+            "Tumor Voxels": 107864,
+            "Tumor Percentage": 1.2081541218637992
+        },
+        {
+            "Case": "BraTS20_Training_279",
+            "Tumor Voxels": 162703,
+            "Tumor Percentage": 1.8223902329749104
+        },
+        {
+            "Case": "BraTS20_Training_280",
+            "Tumor Voxels": 39237,
+            "Tumor Percentage": 0.43948252688172046
+        },
+        {
+            "Case": "BraTS20_Training_281",
+            "Tumor Voxels": 143067,
+            "Tumor Percentage": 1.6024529569892472
+        },
+        {
+            "Case": "BraTS20_Training_282",
+            "Tumor Voxels": 85121,
+            "Tumor Percentage": 0.9534162186379928
+        },
+        {
+            "Case": "BraTS20_Training_283",
+            "Tumor Voxels": 46436,
+            "Tumor Percentage": 0.5201164874551971
+        },
+        {
+            "Case": "BraTS20_Training_284",
+            "Tumor Voxels": 196181,
+            "Tumor Percentage": 2.1973678315412184
+        },
+        {
+            "Case": "BraTS20_Training_285",
+            "Tumor Voxels": 113289,
+            "Tumor Percentage": 1.268918010752688
+        },
+        {
+            "Case": "BraTS20_Training_286",
+            "Tumor Voxels": 23844,
+            "Tumor Percentage": 0.26706989247311824
+        },
+        {
+            "Case": "BraTS20_Training_287",
+            "Tumor Voxels": 49010,
+            "Tumor Percentage": 0.5489471326164874
+        },
+        {
+            "Case": "BraTS20_Training_288",
+            "Tumor Voxels": 77001,
+            "Tumor Percentage": 0.8624663978494623
+        },
+        {
+            "Case": "BraTS20_Training_289",
+            "Tumor Voxels": 191547,
+            "Tumor Percentage": 2.1454637096774194
+        },
+        {
+            "Case": "BraTS20_Training_290",
+            "Tumor Voxels": 220284,
+            "Tumor Percentage": 2.4673387096774193
+        },
+        {
+            "Case": "BraTS20_Training_291",
+            "Tumor Voxels": 218263,
+            "Tumor Percentage": 2.4447020609319
+        },
+        {
+            "Case": "BraTS20_Training_292",
+            "Tumor Voxels": 77020,
+            "Tumor Percentage": 0.8626792114695341
+        },
+        {
+            "Case": "BraTS20_Training_293",
+            "Tumor Voxels": 298075,
+            "Tumor Percentage": 3.338653673835126
+        },
+        {
+            "Case": "BraTS20_Training_294",
+            "Tumor Voxels": 82814,
+            "Tumor Percentage": 0.927576164874552
+        },
+        {
+            "Case": "BraTS20_Training_295",
+            "Tumor Voxels": 25293,
+            "Tumor Percentage": 0.2832997311827957
+        },
+        {
+            "Case": "BraTS20_Training_296",
+            "Tumor Voxels": 162105,
+            "Tumor Percentage": 1.8156922043010755
+        },
+        {
+            "Case": "BraTS20_Training_297",
+            "Tumor Voxels": 74866,
+            "Tumor Percentage": 0.8385528673835124
+        },
+        {
+            "Case": "BraTS20_Training_298",
+            "Tumor Voxels": 45690,
+            "Tumor Percentage": 0.511760752688172
+        },
+        {
+            "Case": "BraTS20_Training_299",
+            "Tumor Voxels": 111018,
+            "Tumor Percentage": 1.243481182795699
+        },
+        {
+            "Case": "BraTS20_Training_300",
+            "Tumor Voxels": 95449,
+            "Tumor Percentage": 1.0690972222222221
+        },
+        {
+            "Case": "BraTS20_Training_301",
+            "Tumor Voxels": 173216,
+            "Tumor Percentage": 1.9401433691756274
+        },
+        {
+            "Case": "BraTS20_Training_302",
+            "Tumor Voxels": 115617,
+            "Tumor Percentage": 1.2949932795698924
+        },
+        {
+            "Case": "BraTS20_Training_303",
+            "Tumor Voxels": 35851,
+            "Tumor Percentage": 0.4015568996415771
+        },
+        {
+            "Case": "BraTS20_Training_304",
+            "Tumor Voxels": 31170,
+            "Tumor Percentage": 0.3491263440860215
+        },
+        {
+            "Case": "BraTS20_Training_305",
+            "Tumor Voxels": 125421,
+            "Tumor Percentage": 1.4048051075268817
+        },
+        {
+            "Case": "BraTS20_Training_306",
+            "Tumor Voxels": 180724,
+            "Tumor Percentage": 2.0242383512544806
+        },
+        {
+            "Case": "BraTS20_Training_307",
+            "Tumor Voxels": 147787,
+            "Tumor Percentage": 1.655320340501792
+        },
+        {
+            "Case": "BraTS20_Training_308",
+            "Tumor Voxels": 202427,
+            "Tumor Percentage": 2.2673275089605736
+        },
+        {
+            "Case": "BraTS20_Training_309",
+            "Tumor Voxels": 157275,
+            "Tumor Percentage": 1.761592741935484
+        },
+        {
+            "Case": "BraTS20_Training_310",
+            "Tumor Voxels": 175367,
+            "Tumor Percentage": 1.964236111111111
+        },
+        {
+            "Case": "BraTS20_Training_311",
+            "Tumor Voxels": 30323,
+            "Tumor Percentage": 0.3396393369175627
+        },
+        {
+            "Case": "BraTS20_Training_312",
+            "Tumor Voxels": 158539,
+            "Tumor Percentage": 1.7757504480286739
+        },
+        {
+            "Case": "BraTS20_Training_313",
+            "Tumor Voxels": 171033,
+            "Tumor Percentage": 1.9156922043010751
+        },
+        {
+            "Case": "BraTS20_Training_314",
+            "Tumor Voxels": 27311,
+            "Tumor Percentage": 0.30590277777777775
+        },
+        {
+            "Case": "BraTS20_Training_315",
+            "Tumor Voxels": 34226,
+            "Tumor Percentage": 0.38335573476702506
+        },
+        {
+            "Case": "BraTS20_Training_316",
+            "Tumor Voxels": 231951,
+            "Tumor Percentage": 2.5980174731182797
+        },
+        {
+            "Case": "BraTS20_Training_317",
+            "Tumor Voxels": 20725,
+            "Tumor Percentage": 0.23213485663082437
+        },
+        {
+            "Case": "BraTS20_Training_318",
+            "Tumor Voxels": 212186,
+            "Tumor Percentage": 2.3766353046594983
+        },
+        {
+            "Case": "BraTS20_Training_319",
+            "Tumor Voxels": 116994,
+            "Tumor Percentage": 1.3104166666666668
+        },
+        {
+            "Case": "BraTS20_Training_320",
+            "Tumor Voxels": 37466,
+            "Tumor Percentage": 0.41964605734767024
+        },
+        {
+            "Case": "BraTS20_Training_321",
+            "Tumor Voxels": 65338,
+            "Tumor Percentage": 0.7318324372759857
+        },
+        {
+            "Case": "BraTS20_Training_322",
+            "Tumor Voxels": 87527,
+            "Tumor Percentage": 0.9803651433691756
+        },
+        {
+            "Case": "BraTS20_Training_323",
+            "Tumor Voxels": 232098,
+            "Tumor Percentage": 2.5996639784946236
+        },
+        {
+            "Case": "BraTS20_Training_324",
+            "Tumor Voxels": 68293,
+            "Tumor Percentage": 0.7649305555555556
+        },
+        {
+            "Case": "BraTS20_Training_325",
+            "Tumor Voxels": 17082,
+            "Tumor Percentage": 0.1913306451612903
+        },
+        {
+            "Case": "BraTS20_Training_326",
+            "Tumor Voxels": 125353,
+            "Tumor Percentage": 1.404043458781362
+        },
+        {
+            "Case": "BraTS20_Training_327",
+            "Tumor Voxels": 183843,
+            "Tumor Percentage": 2.0591733870967746
+        },
+        {
+            "Case": "BraTS20_Training_328",
+            "Tumor Voxels": 361783,
+            "Tumor Percentage": 4.05222894265233
+        },
+        {
+            "Case": "BraTS20_Training_329",
+            "Tumor Voxels": 62935,
+            "Tumor Percentage": 0.7049171146953405
+        },
+        {
+            "Case": "BraTS20_Training_330",
+            "Tumor Voxels": 53625,
+            "Tumor Percentage": 0.600638440860215
+        },
+        {
+            "Case": "BraTS20_Training_331",
+            "Tumor Voxels": 49858,
+            "Tumor Percentage": 0.5584453405017921
+        },
+        {
+            "Case": "BraTS20_Training_332",
+            "Tumor Voxels": 56445,
+            "Tumor Percentage": 0.6322244623655914
+        },
+        {
+            "Case": "BraTS20_Training_333",
+            "Tumor Voxels": 188686,
+            "Tumor Percentage": 2.113418458781362
+        },
+        {
+            "Case": "BraTS20_Training_334",
+            "Tumor Voxels": 151508,
+            "Tumor Percentage": 1.6969982078853048
+        },
+        {
+            "Case": "BraTS20_Training_335",
+            "Tumor Voxels": 136334,
+            "Tumor Percentage": 1.5270385304659497
+        },
+        {
+            "Case": "BraTS20_Training_336",
+            "Tumor Voxels": 105016,
+            "Tumor Percentage": 1.1762544802867383
+        },
+        {
+            "Case": "BraTS20_Training_337",
+            "Tumor Voxels": 111967,
+            "Tumor Percentage": 1.2541106630824372
+        },
+        {
+            "Case": "BraTS20_Training_338",
+            "Tumor Voxels": 138460,
+            "Tumor Percentage": 1.5508512544802868
+        },
+        {
+            "Case": "BraTS20_Training_339",
+            "Tumor Voxels": 147383,
+            "Tumor Percentage": 1.6507952508960575
+        },
+        {
+            "Case": "BraTS20_Training_340",
+            "Tumor Voxels": 77740,
+            "Tumor Percentage": 0.8707437275985663
+        },
+        {
+            "Case": "BraTS20_Training_341",
+            "Tumor Voxels": 12470,
+            "Tumor Percentage": 0.13967293906810035
+        },
+        {
+            "Case": "BraTS20_Training_342",
+            "Tumor Voxels": 150203,
+            "Tumor Percentage": 1.6823812724014338
+        },
+        {
+            "Case": "BraTS20_Training_343",
+            "Tumor Voxels": 157400,
+            "Tumor Percentage": 1.7629928315412187
+        },
+        {
+            "Case": "BraTS20_Training_344",
+            "Tumor Voxels": 79098,
+            "Tumor Percentage": 0.8859543010752688
+        },
+        {
+            "Case": "BraTS20_Training_345",
+            "Tumor Voxels": 95788,
+            "Tumor Percentage": 1.072894265232975
+        },
+        {
+            "Case": "BraTS20_Training_346",
+            "Tumor Voxels": 78584,
+            "Tumor Percentage": 0.8801971326164875
+        },
+        {
+            "Case": "BraTS20_Training_347",
+            "Tumor Voxels": 111614,
+            "Tumor Percentage": 1.2501568100358422
+        },
+        {
+            "Case": "BraTS20_Training_348",
+            "Tumor Voxels": 85112,
+            "Tumor Percentage": 0.9533154121863798
+        },
+        {
+            "Case": "BraTS20_Training_349",
+            "Tumor Voxels": 173793,
+            "Tumor Percentage": 1.946606182795699
+        },
+        {
+            "Case": "BraTS20_Training_350",
+            "Tumor Voxels": 107675,
+            "Tumor Percentage": 1.2060371863799282
+        },
+        {
+            "Case": "BraTS20_Training_351",
+            "Tumor Voxels": 98996,
+            "Tumor Percentage": 1.1088261648745519
+        },
+        {
+            "Case": "BraTS20_Training_352",
+            "Tumor Voxels": 51790,
+            "Tumor Percentage": 0.5800851254480287
+        },
+        {
+            "Case": "BraTS20_Training_353",
+            "Tumor Voxels": 46538,
+            "Tumor Percentage": 0.5212589605734768
+        },
+        {
+            "Case": "BraTS20_Training_354",
+            "Tumor Voxels": 170299,
+            "Tumor Percentage": 1.9074708781362006
+        },
+        {
+            "Case": "BraTS20_Training_356",
+            "Tumor Voxels": 42643,
+            "Tumor Percentage": 0.47763216845878137
+        },
+        {
+            "Case": "BraTS20_Training_357",
+            "Tumor Voxels": 59365,
+            "Tumor Percentage": 0.6649305555555556
+        },
+        {
+            "Case": "BraTS20_Training_358",
+            "Tumor Voxels": 107935,
+            "Tumor Percentage": 1.2089493727598566
+        },
+        {
+            "Case": "BraTS20_Training_359",
+            "Tumor Voxels": 84845,
+            "Tumor Percentage": 0.9503248207885305
+        },
+        {
+            "Case": "BraTS20_Training_360",
+            "Tumor Voxels": 98512,
+            "Tumor Percentage": 1.1034050179211468
+        },
+        {
+            "Case": "BraTS20_Training_361",
+            "Tumor Voxels": 78549,
+            "Tumor Percentage": 0.8798051075268817
+        },
+        {
+            "Case": "BraTS20_Training_362",
+            "Tumor Voxels": 158381,
+            "Tumor Percentage": 1.773980734767025
+        },
+        {
+            "Case": "BraTS20_Training_363",
+            "Tumor Voxels": 120394,
+            "Tumor Percentage": 1.3484991039426524
+        },
+        {
+            "Case": "BraTS20_Training_364",
+            "Tumor Voxels": 98011,
+            "Tumor Percentage": 1.097793458781362
+        },
+        {
+            "Case": "BraTS20_Training_365",
+            "Tumor Voxels": 147861,
+            "Tumor Percentage": 1.6561491935483872
+        },
+        {
+            "Case": "BraTS20_Training_366",
+            "Tumor Voxels": 46230,
+            "Tumor Percentage": 0.5178091397849462
+        },
+        {
+            "Case": "BraTS20_Training_367",
+            "Tumor Voxels": 126642,
+            "Tumor Percentage": 1.418481182795699
+        },
+        {
+            "Case": "BraTS20_Training_368",
+            "Tumor Voxels": 83463,
+            "Tumor Percentage": 0.9348454301075269
+        },
+        {
+            "Case": "BraTS20_Training_369",
+            "Tumor Voxels": 224832,
+            "Tumor Percentage": 2.5182795698924734
+        }
+    ]
+}
