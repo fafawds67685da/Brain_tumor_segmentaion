@@ -35,13 +35,8 @@ FOLDER_INFO = {
         "description": "Tumor pixels, intensity distribution, and feature correlations",
         "has_captions": True
     },
-    "cap 5": {
-        "heading": "🎨 5. Data Augmentation",
-        "description": "Augmentation examples and intensity shift analysis",
-        "has_captions": True
-    },
     "cap 6": {
-        "heading": "📉 6. Training Metrics",
+        "heading": "📉 5. Training Metrics",
         "description": "Loss, accuracy, and dice coefficient curves",
         "has_captions": False
     }
@@ -86,7 +81,7 @@ if 'backend_url' not in st.session_state:
 
 # Navigation
 st.sidebar.title("🧠 Brain Tumor Segmentation")
-page = st.sidebar.radio("Navigate", ["📊 Statistics", "🔮 Prediction"])
+page = st.sidebar.radio("Navigate", ["📊 Statistics", "🔮 Prediction", "🧠 Model Architecture"])
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Backend Configuration")
@@ -188,21 +183,6 @@ if page == "📊 Statistics":
                             st.metric("Final Train Dice", f"{data['train_dice'][-1]:.4f}")
                         with col2:
                             st.metric("Final Val Dice", f"{data['val_dice'][-1]:.4f}")
-                    
-                    # Special handling for augmentation stats
-                    elif "original_mean_intensity" in data and "augmented_means" in data:
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            st.metric("Original Mean Intensity", f"{data['original_mean_intensity']:.6f}")
-                        with col2:
-                            st.metric("Augmentation Shift Std", f"{data['augmentation_shift_std']:.6f}")
-                        
-                        st.markdown("**Augmented Mean Intensities:**")
-                        aug_means = data['augmented_means']
-                        cols = st.columns(min(len(aug_means), 3))
-                        for i, mean_val in enumerate(aug_means):
-                            with cols[i % 3]:
-                                st.metric(f"Sample {i+1}", f"{mean_val:.6f}")
                     
                     # Special handling for dataset intensity and tumor stats (cap 2)
                     elif "average_tumor_percentage" in data and "intensity_stats" in data:
@@ -385,6 +365,104 @@ elif page == "🔮 Prediction":
                         st.error(f"❌ Backend error {resp.status_code}: {resp.text}")
         else:
             st.info("👈 Configure input and click 'Run Segmentation' to begin")
+
+# ==================== MODEL ARCHITECTURE PAGE ====================
+elif page == "🧠 Model Architecture":
+    st.title("🧠 U-Net Model Architecture")
+    st.markdown("""
+    The model used in this project is a **U-Net** architecture, a convolutional neural network designed for biomedical image segmentation.
+    It consists of a contracting path (encoder) to capture context and a symmetric expanding path (decoder) that enables precise localization.
+    """)
+
+    st.subheader("📐 Architecture Diagram")
+    
+    # Simple text-based U-Net visualization
+    st.markdown("""
+    ```
+    ┌─────────────────────────────────────────────────────────────────────────────────────────┐
+    │                              U-Net Architecture                                         │
+    └─────────────────────────────────────────────────────────────────────────────────────────┘
+    
+    INPUT (128×128×1)
+         │
+         ▼
+    ┌─────────────────┐
+    │  Encoder Block 1│  (32 filters, 128×128)
+    │  Conv + BN + ReLU│
+    └─────────────────┘
+         │ MaxPool ↓                                    ┌─────────────────┐
+         ▼                   ─────────────────────────> │  Decoder Block 4│ (32 filters, 128×128)
+    ┌─────────────────┐     Skip Connection            │  UpSample + Conv│
+    │  Encoder Block 2│  (64 filters, 64×64)            └─────────────────┘
+    │  Conv + BN + ReLU│                                        │
+    └─────────────────┘                                         ▼
+         │ MaxPool ↓                                    ┌─────────────────┐
+         ▼                   ─────────────────────────> │  Decoder Block 3│ (64 filters, 64×64)
+    ┌─────────────────┐     Skip Connection            │  UpSample + Conv│
+    │  Encoder Block 3│  (128 filters, 32×32)           └─────────────────┘
+    │  Conv + BN + ReLU│                                        │
+    └─────────────────┘                                         ▼
+         │ MaxPool ↓                                    ┌─────────────────┐
+         ▼                   ─────────────────────────> │  Decoder Block 2│ (128 filters, 32×32)
+    ┌─────────────────┐     Skip Connection            │  UpSample + Conv│
+    │  Encoder Block 4│  (256 filters, 16×16)           └─────────────────┘
+    │  Conv + BN + ReLU│                                        │
+    └─────────────────┘                                         ▼
+         │ MaxPool ↓                                    ┌─────────────────┐
+         ▼                   ─────────────────────────> │  Decoder Block 1│ (256 filters, 16×16)
+    ┌─────────────────┐     Skip Connection            │  UpSample + Conv│
+    │   BOTTLENECK    │  (512 filters, 8×8)             └─────────────────┘
+    │  Conv + BN + ReLU│                                        │
+    └─────────────────┘                                         ▼
+                                                         OUTPUT (128×128×1)
+                                                         Sigmoid Activation
+    ```
+    """)
+    
+    st.info("💡 The U-Net architecture gets its name from the U-shape: the encoder path (left) contracts/downsamples the image, the bottleneck captures abstract features, and the decoder path (right) expands/upsamples back to the original size. Skip connections (arrows) transfer features from encoder to decoder at matching resolutions.")
+
+    st.markdown("---")
+    st.subheader("🔍 Layer Details")
+    
+    with st.expander("1️⃣ Encoder (Contracting Path)", expanded=True):
+        st.markdown("""
+        The encoder extracts features from the input image by applying convolutional filters and downsampling.
+        
+        - **Input:** 128x128x1 (Grayscale MRI Slice)
+        - **Block 1:** 2x Conv2D (32 filters), BatchNormalization, ReLU. Output: 128x128x32. MaxPool -> 64x64.
+        - **Block 2:** 2x Conv2D (64 filters), BatchNormalization, ReLU. Output: 64x64x64. MaxPool -> 32x32.
+        - **Block 3:** 2x Conv2D (128 filters), BatchNormalization, ReLU. Output: 32x32x128. MaxPool -> 16x16.
+        - **Block 4:** 2x Conv2D (256 filters), BatchNormalization, ReLU. Output: 16x16x256. MaxPool -> 8x8.
+        """)
+        
+    with st.expander("2️⃣ Bottleneck", expanded=True):
+        st.markdown("""
+        The bridge between the encoder and decoder, capturing the most abstract features.
+        
+        - **Bottleneck Block:** 2x Conv2D (512 filters), BatchNormalization, ReLU.
+        - **Feature Map Size:** 8x8x512.
+        """)
+        
+    with st.expander("3️⃣ Decoder (Expanding Path)", expanded=True):
+        st.markdown("""
+        The decoder reconstructs the segmentation mask by upsampling and concatenating features from the encoder (skip connections).
+        
+        - **Block 1:** UpSample (2x2) -> 16x16. Concat with Encoder Block 4. 2x Conv2D (256 filters).
+        - **Block 2:** UpSample (2x2) -> 32x32. Concat with Encoder Block 3. 2x Conv2D (128 filters).
+        - **Block 3:** UpSample (2x2) -> 64x64. Concat with Encoder Block 2. 2x Conv2D (64 filters).
+        - **Block 4:** UpSample (2x2) -> 128x128. Concat with Encoder Block 1. 2x Conv2D (32 filters).
+        - **Output Layer:** Conv2D (1 filter, 1x1 kernel), Sigmoid Activation. Output: 128x128x1 (Binary Mask).
+        """ )
+
+    st.markdown("---")
+    st.subheader("📊 Model Parameters")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("Total Parameters", "7,771,297")
+    with col2:
+        st.metric("Trainable Params", "7,765,409")
+    with col3:
+        st.metric("Non-trainable Params", "5,888")
 
 st.sidebar.markdown("---")
 st.sidebar.caption("💡 Tip: Make sure the backend is running at the configured URL")
